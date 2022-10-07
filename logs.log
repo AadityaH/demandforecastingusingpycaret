@@ -1,0 +1,1715 @@
+2022-10-07 10:42:22,157:WARNING:C:\Users\Kunal\anaconda3\lib\site-packages\plotly_resampler\aggregation\aggregators.py:24: UserWarning: Could not import lttbc; will use a (slower) python alternative.
+  warnings.warn("Could not import lttbc; will use a (slower) python alternative.")
+
+2022-10-07 10:42:25,665:INFO:Soft dependency imported: prophet: 1.1.1
+2022-10-07 10:44:25,546:WARNING:C:\Users\Kunal\anaconda3\lib\site-packages\plotly_resampler\aggregation\aggregators.py:24: UserWarning: Could not import lttbc; will use a (slower) python alternative.
+  warnings.warn("Could not import lttbc; will use a (slower) python alternative.")
+
+2022-10-07 10:44:26,891:INFO:Soft dependency imported: prophet: 1.1.1
+2022-10-07 10:44:39,256:INFO:PyCaret TSForecastingExperiment
+2022-10-07 10:44:39,257:INFO:Logging name: ts-default-name
+2022-10-07 10:44:39,258:INFO:ML Usecase: MLUsecase.TIME_SERIES
+2022-10-07 10:44:39,259:INFO:version 3.0.0.rc3
+2022-10-07 10:44:39,260:INFO:Initializing setup()
+2022-10-07 10:44:39,261:INFO:self.USI: e5e6
+2022-10-07 10:44:39,261:INFO:self.variable_keys: {'fold_generator', 'master_model_container', 'y', 'X_test_transformed', 'seasonality_present', '_ml_usecase', 'html_param', 'index_type', 'seed', 'X', 'log_plots_param', 'exp_id', 'memory', 'seasonal_period', '_all_metrics', 'exogenous_present', 'approach_type', 'X_train', 'y_train', '_available_plots', 'exp_name_log', 'primary_sp_to_use', 'fh', 'fold_param', 'y_test_transformed', 'enforce_exogenous', 'variable_keys', 'y_train_transformed', 'y_transformed', '_all_models_internal', 'display_container', 'data', 'gpu_param', 'model_engines', 'all_sp_values', 'idx', 'X_transformed', 'USI', 'enforce_pi', 'pipeline', 'strictly_positive', 'y_test', 'X_test', '_gpu_n_jobs_param', 'X_train_transformed', 'logging_param', '_all_models', 'n_jobs_param'}
+2022-10-07 10:44:39,264:INFO:Checking environment
+2022-10-07 10:44:39,264:INFO:python_version: 3.9.7
+2022-10-07 10:44:39,265:INFO:python_build: ('default', 'Sep 16 2021 16:59:28')
+2022-10-07 10:44:39,266:INFO:machine: AMD64
+2022-10-07 10:44:39,266:INFO:platform: Windows-10-10.0.22000-SP0
+2022-10-07 10:44:39,267:INFO:Memory: svmem(total=8506298368, available=710733824, percent=91.6, used=7795564544, free=710733824)
+2022-10-07 10:44:39,268:INFO:Physical Core: 4
+2022-10-07 10:44:39,268:INFO:Logical Core: 8
+2022-10-07 10:44:39,270:INFO:Checking libraries
+2022-10-07 10:44:39,270:INFO:System:
+2022-10-07 10:44:39,272:INFO:    python: 3.9.7 (default, Sep 16 2021, 16:59:28) [MSC v.1916 64 bit (AMD64)]
+2022-10-07 10:44:39,272:INFO:executable: C:\Users\Kunal\anaconda3\python.exe
+2022-10-07 10:44:39,274:INFO:   machine: Windows-10-10.0.22000-SP0
+2022-10-07 10:44:39,274:INFO:PyCaret required dependencies:
+2022-10-07 10:44:39,277:WARNING:C:\Users\Kunal\anaconda3\lib\site-packages\_distutils_hack\__init__.py:30: UserWarning: Setuptools is replacing distutils.
+  warnings.warn("Setuptools is replacing distutils.")
+
+2022-10-07 10:44:39,584:INFO:                 pip: 22.1.2
+2022-10-07 10:44:39,584:INFO:          setuptools: 61.2.0
+2022-10-07 10:44:39,585:INFO:             pycaret: 3.0.0.rc3
+2022-10-07 10:44:39,588:INFO:             IPython: 7.31.1
+2022-10-07 10:44:39,588:INFO:          ipywidgets: 7.6.5
+2022-10-07 10:44:39,589:INFO:                tqdm: 4.64.0
+2022-10-07 10:44:39,589:INFO:               numpy: 1.21.6
+2022-10-07 10:44:39,590:INFO:              pandas: 1.4.3
+2022-10-07 10:44:39,591:INFO:              jinja2: 3.0.1
+2022-10-07 10:44:39,592:INFO:               scipy: 1.7.3
+2022-10-07 10:44:39,594:INFO:              joblib: 1.1.0
+2022-10-07 10:44:39,595:INFO:             sklearn: 1.1.1
+2022-10-07 10:44:39,599:INFO:                pyod: Installed but version unavailable
+2022-10-07 10:44:39,600:INFO:            imblearn: 0.9.1
+2022-10-07 10:44:39,601:INFO:   category_encoders: 2.5.0
+2022-10-07 10:44:39,602:INFO:            lightgbm: 3.3.2
+2022-10-07 10:44:39,603:INFO:               numba: 0.55.1
+2022-10-07 10:44:39,605:INFO:            requests: 2.28.1
+2022-10-07 10:44:39,605:INFO:          matplotlib: 3.5.1
+2022-10-07 10:44:39,607:INFO:          scikitplot: 0.3.7
+2022-10-07 10:44:39,607:INFO:         yellowbrick: 1.5
+2022-10-07 10:44:39,608:INFO:              plotly: 5.9.0
+2022-10-07 10:44:39,612:INFO:             kaleido: 0.2.1
+2022-10-07 10:44:39,616:INFO:         statsmodels: 0.13.2
+2022-10-07 10:44:39,616:INFO:              sktime: 0.11.4
+2022-10-07 10:44:39,618:INFO:               tbats: Installed but version unavailable
+2022-10-07 10:44:39,618:INFO:            pmdarima: 2.0.1
+2022-10-07 10:44:39,619:INFO:              psutil: 5.9.0
+2022-10-07 10:44:39,619:INFO:None
+2022-10-07 10:44:39,638:INFO:Set Forecast Horizon.
+2022-10-07 10:44:39,639:INFO:Set up Train-Test Splits.
+2022-10-07 10:44:39,692:INFO:Finished creating preprocessing pipeline.
+2022-10-07 10:44:39,696:INFO:Pipeline: ForecastingPipeline(steps=[('forecaster',
+                            TransformedTargetForecaster(steps=[('model',
+                                                                DummyForecaster())]))])
+2022-10-07 10:44:39,696:INFO:Set up Seasonal Period.
+2022-10-07 10:44:39,698:INFO:Set up whether Multiplicative components allowed.
+2022-10-07 10:44:39,763:INFO:Creating final display dataframe.
+2022-10-07 10:44:39,775:INFO:Setup Display Container:                     Description                    Value
+0                    session_id                     2673
+1                        Target                    Total
+2                      Approach               Univariate
+3           Exogenous Variables              Not Present
+4           Original data shape                  (90, 1)
+5        Transformed data shape                  (90, 1)
+6   Transformed train set shape                  (72, 1)
+7    Transformed test set shape                  (18, 1)
+8      Rows with missing values                     0.0%
+9                Fold Generator  ExpandingWindowSplitter
+10                  Fold Number                        3
+11  Enforce Prediction Interval                    False
+12    Seasonal Period(s) Tested                        7
+13          Seasonality Present                     True
+14       Seasonalities Detected                      [7]
+15          Primary Seasonality                        7
+16     Target Strictly Positive                     True
+17           Target White Noise                       No
+18                Recommended d                        1
+19       Recommended Seasonal D                        1
+20                   Preprocess                    False
+21                     CPU Jobs                       -1
+22                      Use GPU                    False
+23               Log Experiment                    False
+24              Experiment Name          ts-default-name
+25                          USI                     e5e6
+2022-10-07 10:44:39,786:INFO:Engine successfully changes for model 'auto_arima' to 'pmdarima'.
+2022-10-07 10:44:39,805:INFO:Soft dependency imported: prophet: 1.1.1
+2022-10-07 10:44:39,863:INFO:Soft dependency imported: xgboost: 1.6.2
+2022-10-07 10:44:39,864:INFO:Soft dependency imported: xgboost: 1.6.2
+2022-10-07 10:44:39,865:WARNING:No module named 'catboost'.
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2022-10-07 10:44:39,868:WARNING:No module named 'catboost'.
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2022-10-07 10:44:39,870:INFO:Soft dependency imported: prophet: 1.1.1
+2022-10-07 10:44:39,873:INFO:Soft dependency imported: xgboost: 1.6.2
+2022-10-07 10:44:39,874:INFO:Soft dependency imported: xgboost: 1.6.2
+2022-10-07 10:44:39,875:WARNING:No module named 'catboost'.
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2022-10-07 10:44:39,876:WARNING:No module named 'catboost'.
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2022-10-07 10:44:39,879:INFO:Soft dependency imported: prophet: 1.1.1
+2022-10-07 10:44:39,882:INFO:Soft dependency imported: xgboost: 1.6.2
+2022-10-07 10:44:39,883:INFO:Soft dependency imported: xgboost: 1.6.2
+2022-10-07 10:44:39,883:WARNING:No module named 'catboost'.
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2022-10-07 10:44:39,884:WARNING:No module named 'catboost'.
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2022-10-07 10:44:39,885:INFO:Soft dependency imported: prophet: 1.1.1
+2022-10-07 10:44:39,889:INFO:Soft dependency imported: xgboost: 1.6.2
+2022-10-07 10:44:39,890:INFO:Soft dependency imported: xgboost: 1.6.2
+2022-10-07 10:44:39,891:WARNING:No module named 'catboost'.
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2022-10-07 10:44:39,893:WARNING:No module named 'catboost'.
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2022-10-07 10:44:39,922:INFO:setup() successfully completed in 0.66s...............
+2022-10-07 10:44:39,922:INFO:Initializing compare_models()
+2022-10-07 10:44:39,923:INFO:compare_models(self=<pycaret.time_series.forecasting.oop.TSForecastingExperiment object at 0x00000183D7A92760>, include=None, fold=None, round=4, cross_validation=True, sort=MASE, n_select=1, budget_time=None, turbo=True, errors=ignore, fit_kwargs=None, groups=None, experiment_custom_tags=None, probability_threshold=None, verbose=True, parallel=None, caller_params={'self': <pycaret.time_series.forecasting.oop.TSForecastingExperiment object at 0x00000183D7A92760>, 'include': None, 'exclude': None, 'fold': None, 'round': 4, 'cross_validation': True, 'sort': 'MASE', 'n_select': 1, 'budget_time': None, 'turbo': True, 'errors': 'ignore', 'fit_kwargs': None, 'experiment_custom_tags': None, 'engines': None, 'verbose': True, 'parallel': None, '__class__': <class 'pycaret.time_series.forecasting.oop.TSForecastingExperiment'>}, exclude=None)
+2022-10-07 10:44:39,926:INFO:Checking exceptions
+2022-10-07 10:44:39,932:INFO:Preparing display monitor
+2022-10-07 10:44:39,942:WARNING:C:\Users\Kunal\anaconda3\lib\site-packages\pycaret\internal\pycaret_experiment\supervised_experiment.py:708: UserWarning: Unsupported estimator `ensemble_forecaster` for method `compare_models()`, removing from model_library
+  warnings.warn(
+
+2022-10-07 10:44:39,942:INFO:Initializing Naive Forecaster
+2022-10-07 10:44:39,943:INFO:Total runtime is 1.8115838368733724e-05 minutes
+2022-10-07 10:44:39,945:INFO:SubProcess create_model() called ==================================
+2022-10-07 10:44:39,947:INFO:Initializing create_model()
+2022-10-07 10:44:39,948:INFO:create_model(self=<pycaret.time_series.forecasting.oop.TSForecastingExperiment object at 0x00000183D7A92760>, estimator=naive, fold=None, round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x00000183E1F1F0D0>, model_only=True, return_train_score=False, kwargs={})
+2022-10-07 10:44:39,949:INFO:Checking exceptions
+2022-10-07 10:44:39,951:INFO:Importing libraries
+2022-10-07 10:44:39,952:INFO:Copying training dataset
+2022-10-07 10:44:39,955:INFO:Defining folds
+2022-10-07 10:44:39,955:INFO:Declaring metric variables
+2022-10-07 10:44:39,956:INFO:Importing untrained model
+2022-10-07 10:44:39,957:INFO:Naive Forecaster Imported successfully
+2022-10-07 10:44:39,957:INFO:Starting cross validation
+2022-10-07 10:44:39,958:INFO:Cross validating with ExpandingWindowSplitter(fh=ForecastingHorizon([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18], dtype='int64', is_relative=True),
+            initial_window=None, step_length=18), n_jobs=-1
+2022-10-07 10:44:45,744:WARNING:C:\Users\Kunal\anaconda3\lib\site-packages\sktime\performance_metrics\forecasting\_functions.py:1545: FutureWarning: In the percentage error metric functions the default argument symmetric=True is changing to symmetric=False in v0.12.0.
+  warn(
+
+2022-10-07 10:44:45,745:WARNING:C:\Users\Kunal\anaconda3\lib\site-packages\sktime\performance_metrics\forecasting\_functions.py:1545: FutureWarning: In the percentage error metric functions the default argument symmetric=True is changing to symmetric=False in v0.12.0.
+  warn(
+
+2022-10-07 10:44:45,752:WARNING:C:\Users\Kunal\anaconda3\lib\site-packages\sktime\performance_metrics\forecasting\_functions.py:1545: FutureWarning: In the percentage error metric functions the default argument symmetric=True is changing to symmetric=False in v0.12.0.
+  warn(
+
+2022-10-07 10:44:45,753:WARNING:C:\Users\Kunal\anaconda3\lib\site-packages\sktime\performance_metrics\forecasting\_functions.py:1545: FutureWarning: In the percentage error metric functions the default argument symmetric=True is changing to symmetric=False in v0.12.0.
+  warn(
+
+2022-10-07 10:44:45,754:WARNING:C:\Users\Kunal\anaconda3\lib\site-packages\sktime\performance_metrics\forecasting\_functions.py:1545: FutureWarning: In the percentage error metric functions the default argument symmetric=True is changing to symmetric=False in v0.12.0.
+  warn(
+
+2022-10-07 10:44:45,755:WARNING:C:\Users\Kunal\anaconda3\lib\site-packages\sktime\performance_metrics\forecasting\_functions.py:1545: FutureWarning: In the percentage error metric functions the default argument symmetric=True is changing to symmetric=False in v0.12.0.
+  warn(
+
+2022-10-07 10:44:45,758:INFO:Calculating mean and std
+2022-10-07 10:44:45,761:INFO:Creating metrics dataframe
+2022-10-07 10:44:45,766:INFO:Uploading results into container
+2022-10-07 10:44:45,766:INFO:Uploading model into container now
+2022-10-07 10:44:45,767:INFO:master_model_container: 1
+2022-10-07 10:44:45,768:INFO:display_container: 2
+2022-10-07 10:44:45,768:INFO:NaiveForecaster()
+2022-10-07 10:44:45,769:INFO:create_model() successfully completed......................................
+2022-10-07 10:44:45,938:INFO:SubProcess create_model() end ==================================
+2022-10-07 10:44:45,939:INFO:Creating metrics dataframe
+2022-10-07 10:44:45,948:INFO:Initializing Grand Means Forecaster
+2022-10-07 10:44:45,948:INFO:Total runtime is 0.100112783908844 minutes
+2022-10-07 10:44:45,949:INFO:SubProcess create_model() called ==================================
+2022-10-07 10:44:45,950:INFO:Initializing create_model()
+2022-10-07 10:44:45,950:INFO:create_model(self=<pycaret.time_series.forecasting.oop.TSForecastingExperiment object at 0x00000183D7A92760>, estimator=grand_means, fold=None, round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x00000183E1F1F0D0>, model_only=True, return_train_score=False, kwargs={})
+2022-10-07 10:44:45,951:INFO:Checking exceptions
+2022-10-07 10:44:45,954:INFO:Importing libraries
+2022-10-07 10:44:45,954:INFO:Copying training dataset
+2022-10-07 10:44:45,958:INFO:Defining folds
+2022-10-07 10:44:45,959:INFO:Declaring metric variables
+2022-10-07 10:44:45,959:INFO:Importing untrained model
+2022-10-07 10:44:45,962:INFO:Grand Means Forecaster Imported successfully
+2022-10-07 10:44:45,963:INFO:Starting cross validation
+2022-10-07 10:44:45,964:INFO:Cross validating with ExpandingWindowSplitter(fh=ForecastingHorizon([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18], dtype='int64', is_relative=True),
+            initial_window=None, step_length=18), n_jobs=-1
+2022-10-07 10:44:49,132:WARNING:C:\Users\Kunal\anaconda3\lib\site-packages\sktime\performance_metrics\forecasting\_functions.py:1545: FutureWarning: In the percentage error metric functions the default argument symmetric=True is changing to symmetric=False in v0.12.0.
+  warn(
+
+2022-10-07 10:44:49,133:WARNING:C:\Users\Kunal\anaconda3\lib\site-packages\sktime\performance_metrics\forecasting\_functions.py:1545: FutureWarning: In the percentage error metric functions the default argument symmetric=True is changing to symmetric=False in v0.12.0.
+  warn(
+
+2022-10-07 10:44:49,133:WARNING:C:\Users\Kunal\anaconda3\lib\site-packages\sktime\performance_metrics\forecasting\_functions.py:1545: FutureWarning: In the percentage error metric functions the default argument symmetric=True is changing to symmetric=False in v0.12.0.
+  warn(
+
+2022-10-07 10:44:49,137:WARNING:C:\Users\Kunal\anaconda3\lib\site-packages\sktime\performance_metrics\forecasting\_functions.py:1545: FutureWarning: In the percentage error metric functions the default argument symmetric=True is changing to symmetric=False in v0.12.0.
+  warn(
+
+2022-10-07 10:44:49,137:WARNING:C:\Users\Kunal\anaconda3\lib\site-packages\sktime\performance_metrics\forecasting\_functions.py:1545: FutureWarning: In the percentage error metric functions the default argument symmetric=True is changing to symmetric=False in v0.12.0.
+  warn(
+
+2022-10-07 10:44:49,140:INFO:Calculating mean and std
+2022-10-07 10:44:49,143:INFO:Creating metrics dataframe
+2022-10-07 10:44:49,148:INFO:Uploading results into container
+2022-10-07 10:44:49,148:INFO:Uploading model into container now
+2022-10-07 10:44:49,149:INFO:master_model_container: 2
+2022-10-07 10:44:49,150:INFO:display_container: 2
+2022-10-07 10:44:49,150:INFO:NaiveForecaster(strategy='mean')
+2022-10-07 10:44:49,151:INFO:create_model() successfully completed......................................
+2022-10-07 10:44:49,318:INFO:SubProcess create_model() end ==================================
+2022-10-07 10:44:49,318:INFO:Creating metrics dataframe
+2022-10-07 10:44:49,327:INFO:Initializing Seasonal Naive Forecaster
+2022-10-07 10:44:49,327:INFO:Total runtime is 0.1564261833826701 minutes
+2022-10-07 10:44:49,328:INFO:SubProcess create_model() called ==================================
+2022-10-07 10:44:49,329:INFO:Initializing create_model()
+2022-10-07 10:44:49,330:INFO:create_model(self=<pycaret.time_series.forecasting.oop.TSForecastingExperiment object at 0x00000183D7A92760>, estimator=snaive, fold=None, round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x00000183E1F1F0D0>, model_only=True, return_train_score=False, kwargs={})
+2022-10-07 10:44:49,330:INFO:Checking exceptions
+2022-10-07 10:44:49,333:INFO:Importing libraries
+2022-10-07 10:44:49,333:INFO:Copying training dataset
+2022-10-07 10:44:49,337:INFO:Defining folds
+2022-10-07 10:44:49,338:INFO:Declaring metric variables
+2022-10-07 10:44:49,338:INFO:Importing untrained model
+2022-10-07 10:44:49,340:INFO:Seasonal Naive Forecaster Imported successfully
+2022-10-07 10:44:49,342:INFO:Starting cross validation
+2022-10-07 10:44:49,345:INFO:Cross validating with ExpandingWindowSplitter(fh=ForecastingHorizon([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18], dtype='int64', is_relative=True),
+            initial_window=None, step_length=18), n_jobs=-1
+2022-10-07 10:44:49,405:WARNING:C:\Users\Kunal\anaconda3\lib\site-packages\sktime\performance_metrics\forecasting\_functions.py:1545: FutureWarning: In the percentage error metric functions the default argument symmetric=True is changing to symmetric=False in v0.12.0.
+  warn(
+
+2022-10-07 10:44:49,405:WARNING:C:\Users\Kunal\anaconda3\lib\site-packages\sktime\performance_metrics\forecasting\_functions.py:1545: FutureWarning: In the percentage error metric functions the default argument symmetric=True is changing to symmetric=False in v0.12.0.
+  warn(
+
+2022-10-07 10:44:52,373:WARNING:C:\Users\Kunal\anaconda3\lib\site-packages\sktime\performance_metrics\forecasting\_functions.py:1545: FutureWarning: In the percentage error metric functions the default argument symmetric=True is changing to symmetric=False in v0.12.0.
+  warn(
+
+2022-10-07 10:44:52,374:WARNING:C:\Users\Kunal\anaconda3\lib\site-packages\sktime\performance_metrics\forecasting\_functions.py:1545: FutureWarning: In the percentage error metric functions the default argument symmetric=True is changing to symmetric=False in v0.12.0.
+  warn(
+
+2022-10-07 10:44:52,374:WARNING:C:\Users\Kunal\anaconda3\lib\site-packages\sktime\performance_metrics\forecasting\_functions.py:1545: FutureWarning: In the percentage error metric functions the default argument symmetric=True is changing to symmetric=False in v0.12.0.
+  warn(
+
+2022-10-07 10:44:52,374:WARNING:C:\Users\Kunal\anaconda3\lib\site-packages\sktime\performance_metrics\forecasting\_functions.py:1545: FutureWarning: In the percentage error metric functions the default argument symmetric=True is changing to symmetric=False in v0.12.0.
+  warn(
+
+2022-10-07 10:44:52,377:INFO:Calculating mean and std
+2022-10-07 10:44:52,379:INFO:Creating metrics dataframe
+2022-10-07 10:44:52,384:INFO:Uploading results into container
+2022-10-07 10:44:52,384:INFO:Uploading model into container now
+2022-10-07 10:44:52,385:INFO:master_model_container: 3
+2022-10-07 10:44:52,386:INFO:display_container: 2
+2022-10-07 10:44:52,386:INFO:NaiveForecaster(sp=7)
+2022-10-07 10:44:52,387:INFO:create_model() successfully completed......................................
+2022-10-07 10:44:52,535:INFO:SubProcess create_model() end ==================================
+2022-10-07 10:44:52,535:INFO:Creating metrics dataframe
+2022-10-07 10:44:52,543:INFO:Initializing Polynomial Trend Forecaster
+2022-10-07 10:44:52,543:INFO:Total runtime is 0.21001620292663575 minutes
+2022-10-07 10:44:52,544:INFO:SubProcess create_model() called ==================================
+2022-10-07 10:44:52,544:INFO:Initializing create_model()
+2022-10-07 10:44:52,545:INFO:create_model(self=<pycaret.time_series.forecasting.oop.TSForecastingExperiment object at 0x00000183D7A92760>, estimator=polytrend, fold=None, round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x00000183E1F1F0D0>, model_only=True, return_train_score=False, kwargs={})
+2022-10-07 10:44:52,545:INFO:Checking exceptions
+2022-10-07 10:44:52,547:INFO:Importing libraries
+2022-10-07 10:44:52,547:INFO:Copying training dataset
+2022-10-07 10:44:52,551:INFO:Defining folds
+2022-10-07 10:44:52,551:INFO:Declaring metric variables
+2022-10-07 10:44:52,551:INFO:Importing untrained model
+2022-10-07 10:44:52,551:INFO:Polynomial Trend Forecaster Imported successfully
+2022-10-07 10:44:52,552:INFO:Starting cross validation
+2022-10-07 10:44:52,553:INFO:Cross validating with ExpandingWindowSplitter(fh=ForecastingHorizon([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18], dtype='int64', is_relative=True),
+            initial_window=None, step_length=18), n_jobs=-1
+2022-10-07 10:44:52,632:WARNING:C:\Users\Kunal\anaconda3\lib\site-packages\sktime\performance_metrics\forecasting\_functions.py:1545: FutureWarning: In the percentage error metric functions the default argument symmetric=True is changing to symmetric=False in v0.12.0.
+  warn(
+
+2022-10-07 10:44:52,632:WARNING:C:\Users\Kunal\anaconda3\lib\site-packages\sktime\performance_metrics\forecasting\_functions.py:1545: FutureWarning: In the percentage error metric functions the default argument symmetric=True is changing to symmetric=False in v0.12.0.
+  warn(
+
+2022-10-07 10:44:52,632:WARNING:C:\Users\Kunal\anaconda3\lib\site-packages\sktime\performance_metrics\forecasting\_functions.py:1545: FutureWarning: In the percentage error metric functions the default argument symmetric=True is changing to symmetric=False in v0.12.0.
+  warn(
+
+2022-10-07 10:44:52,632:WARNING:C:\Users\Kunal\anaconda3\lib\site-packages\sktime\performance_metrics\forecasting\_functions.py:1545: FutureWarning: In the percentage error metric functions the default argument symmetric=True is changing to symmetric=False in v0.12.0.
+  warn(
+
+2022-10-07 10:44:52,633:WARNING:C:\Users\Kunal\anaconda3\lib\site-packages\sktime\performance_metrics\forecasting\_functions.py:1545: FutureWarning: In the percentage error metric functions the default argument symmetric=True is changing to symmetric=False in v0.12.0.
+  warn(
+
+2022-10-07 10:44:52,633:WARNING:C:\Users\Kunal\anaconda3\lib\site-packages\sktime\performance_metrics\forecasting\_functions.py:1545: FutureWarning: In the percentage error metric functions the default argument symmetric=True is changing to symmetric=False in v0.12.0.
+  warn(
+
+2022-10-07 10:44:52,636:INFO:Calculating mean and std
+2022-10-07 10:44:52,637:INFO:Creating metrics dataframe
+2022-10-07 10:44:52,648:INFO:Uploading results into container
+2022-10-07 10:44:52,649:INFO:Uploading model into container now
+2022-10-07 10:44:52,649:INFO:master_model_container: 4
+2022-10-07 10:44:52,651:INFO:display_container: 2
+2022-10-07 10:44:52,653:INFO:PolynomialTrendForecaster()
+2022-10-07 10:44:52,653:INFO:create_model() successfully completed......................................
+2022-10-07 10:44:52,785:INFO:SubProcess create_model() end ==================================
+2022-10-07 10:44:52,785:INFO:Creating metrics dataframe
+2022-10-07 10:44:52,793:INFO:Initializing ARIMA
+2022-10-07 10:44:52,793:INFO:Total runtime is 0.214196248849233 minutes
+2022-10-07 10:44:52,794:INFO:SubProcess create_model() called ==================================
+2022-10-07 10:44:52,795:INFO:Initializing create_model()
+2022-10-07 10:44:52,795:INFO:create_model(self=<pycaret.time_series.forecasting.oop.TSForecastingExperiment object at 0x00000183D7A92760>, estimator=arima, fold=None, round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x00000183E1F1F0D0>, model_only=True, return_train_score=False, kwargs={})
+2022-10-07 10:44:52,796:INFO:Checking exceptions
+2022-10-07 10:44:52,798:INFO:Importing libraries
+2022-10-07 10:44:52,798:INFO:Copying training dataset
+2022-10-07 10:44:52,801:INFO:Defining folds
+2022-10-07 10:44:52,801:INFO:Declaring metric variables
+2022-10-07 10:44:52,801:INFO:Importing untrained model
+2022-10-07 10:44:52,802:INFO:ARIMA Imported successfully
+2022-10-07 10:44:52,803:INFO:Starting cross validation
+2022-10-07 10:44:52,804:INFO:Cross validating with ExpandingWindowSplitter(fh=ForecastingHorizon([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18], dtype='int64', is_relative=True),
+            initial_window=None, step_length=18), n_jobs=-1
+2022-10-07 10:44:53,718:WARNING:C:\Users\Kunal\anaconda3\lib\site-packages\sktime\performance_metrics\forecasting\_functions.py:1545: FutureWarning: In the percentage error metric functions the default argument symmetric=True is changing to symmetric=False in v0.12.0.
+  warn(
+
+2022-10-07 10:44:53,719:WARNING:C:\Users\Kunal\anaconda3\lib\site-packages\sktime\performance_metrics\forecasting\_functions.py:1545: FutureWarning: In the percentage error metric functions the default argument symmetric=True is changing to symmetric=False in v0.12.0.
+  warn(
+
+2022-10-07 10:44:53,733:WARNING:C:\Users\Kunal\anaconda3\lib\site-packages\sktime\performance_metrics\forecasting\_functions.py:1545: FutureWarning: In the percentage error metric functions the default argument symmetric=True is changing to symmetric=False in v0.12.0.
+  warn(
+
+2022-10-07 10:44:53,733:WARNING:C:\Users\Kunal\anaconda3\lib\site-packages\sktime\performance_metrics\forecasting\_functions.py:1545: FutureWarning: In the percentage error metric functions the default argument symmetric=True is changing to symmetric=False in v0.12.0.
+  warn(
+
+2022-10-07 10:44:53,752:WARNING:C:\Users\Kunal\anaconda3\lib\site-packages\sktime\performance_metrics\forecasting\_functions.py:1545: FutureWarning: In the percentage error metric functions the default argument symmetric=True is changing to symmetric=False in v0.12.0.
+  warn(
+
+2022-10-07 10:44:53,752:WARNING:C:\Users\Kunal\anaconda3\lib\site-packages\sktime\performance_metrics\forecasting\_functions.py:1545: FutureWarning: In the percentage error metric functions the default argument symmetric=True is changing to symmetric=False in v0.12.0.
+  warn(
+
+2022-10-07 10:44:53,755:INFO:Calculating mean and std
+2022-10-07 10:44:53,756:INFO:Creating metrics dataframe
+2022-10-07 10:44:53,760:INFO:Uploading results into container
+2022-10-07 10:44:53,760:INFO:Uploading model into container now
+2022-10-07 10:44:53,761:INFO:master_model_container: 5
+2022-10-07 10:44:53,761:INFO:display_container: 2
+2022-10-07 10:44:53,762:INFO:ARIMA(seasonal_order=(0, 1, 0, 7))
+2022-10-07 10:44:53,763:INFO:create_model() successfully completed......................................
+2022-10-07 10:44:53,872:INFO:SubProcess create_model() end ==================================
+2022-10-07 10:44:53,872:INFO:Creating metrics dataframe
+2022-10-07 10:44:53,880:INFO:Initializing Auto ARIMA
+2022-10-07 10:44:53,880:INFO:Total runtime is 0.23230777581532797 minutes
+2022-10-07 10:44:53,880:INFO:SubProcess create_model() called ==================================
+2022-10-07 10:44:53,881:INFO:Initializing create_model()
+2022-10-07 10:44:53,881:INFO:create_model(self=<pycaret.time_series.forecasting.oop.TSForecastingExperiment object at 0x00000183D7A92760>, estimator=auto_arima, fold=None, round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x00000183E1F1F0D0>, model_only=True, return_train_score=False, kwargs={})
+2022-10-07 10:44:53,882:INFO:Checking exceptions
+2022-10-07 10:44:53,884:INFO:Importing libraries
+2022-10-07 10:44:53,884:INFO:Copying training dataset
+2022-10-07 10:44:53,887:INFO:Defining folds
+2022-10-07 10:44:53,888:INFO:Declaring metric variables
+2022-10-07 10:44:53,888:INFO:Importing untrained model
+2022-10-07 10:44:53,892:INFO:Auto ARIMA Imported successfully
+2022-10-07 10:44:53,893:INFO:Starting cross validation
+2022-10-07 10:44:53,893:INFO:Cross validating with ExpandingWindowSplitter(fh=ForecastingHorizon([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18], dtype='int64', is_relative=True),
+            initial_window=None, step_length=18), n_jobs=-1
+2022-10-07 10:44:54,594:ERROR:Fit failed on ForecastingPipeline(steps=[('forecaster',
+                            TransformedTargetForecaster(steps=[('model',
+                                                                AutoARIMA(random_state=2673,
+                                                                          sp=7,
+                                                                          suppress_warnings=True))]))])
+2022-10-07 10:44:54,595:ERROR:zero-size array to reduction operation maximum which has no identity
+2022-10-07 10:44:56,302:WARNING:C:\Users\Kunal\anaconda3\lib\site-packages\sktime\performance_metrics\forecasting\_functions.py:1545: FutureWarning: In the percentage error metric functions the default argument symmetric=True is changing to symmetric=False in v0.12.0.
+  warn(
+
+2022-10-07 10:44:56,302:WARNING:C:\Users\Kunal\anaconda3\lib\site-packages\sktime\performance_metrics\forecasting\_functions.py:1545: FutureWarning: In the percentage error metric functions the default argument symmetric=True is changing to symmetric=False in v0.12.0.
+  warn(
+
+2022-10-07 10:44:57,052:WARNING:C:\Users\Kunal\anaconda3\lib\site-packages\sktime\performance_metrics\forecasting\_functions.py:1545: FutureWarning: In the percentage error metric functions the default argument symmetric=True is changing to symmetric=False in v0.12.0.
+  warn(
+
+2022-10-07 10:44:57,052:WARNING:C:\Users\Kunal\anaconda3\lib\site-packages\sktime\performance_metrics\forecasting\_functions.py:1545: FutureWarning: In the percentage error metric functions the default argument symmetric=True is changing to symmetric=False in v0.12.0.
+  warn(
+
+2022-10-07 10:44:57,055:INFO:Calculating mean and std
+2022-10-07 10:44:57,056:INFO:Creating metrics dataframe
+2022-10-07 10:44:57,060:INFO:Uploading results into container
+2022-10-07 10:44:57,061:INFO:Uploading model into container now
+2022-10-07 10:44:57,061:INFO:master_model_container: 6
+2022-10-07 10:44:57,062:INFO:display_container: 2
+2022-10-07 10:44:57,063:INFO:AutoARIMA(random_state=2673, sp=7, suppress_warnings=True)
+2022-10-07 10:44:57,064:INFO:create_model() successfully completed......................................
+2022-10-07 10:44:57,176:WARNING:create_model() for AutoARIMA(random_state=2673, sp=7, suppress_warnings=True) raised an exception or returned all 0.0, trying without fit_kwargs:
+2022-10-07 10:44:57,190:WARNING:Traceback (most recent call last):
+  File "C:\Users\Kunal\anaconda3\lib\site-packages\streamlit\caching\cache_utils.py", line 126, in get_or_create_cached_value
+    return_value = cache.read_value(value_key)
+  File "C:\Users\Kunal\anaconda3\lib\site-packages\streamlit\caching\singleton_decorator.py", line 262, in read_value
+    raise CacheKeyNotFoundError()
+streamlit.caching.cache_errors.CacheKeyNotFoundError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Kunal\anaconda3\lib\site-packages\pycaret\internal\pycaret_experiment\supervised_experiment.py", line 794, in compare_models
+    assert (
+AssertionError
+
+2022-10-07 10:44:57,191:INFO:Initializing create_model()
+2022-10-07 10:44:57,191:INFO:create_model(self=<pycaret.time_series.forecasting.oop.TSForecastingExperiment object at 0x00000183D7A92760>, estimator=auto_arima, fold=None, round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x00000183E1F1F0D0>, model_only=True, return_train_score=False, kwargs={})
+2022-10-07 10:44:57,192:INFO:Checking exceptions
+2022-10-07 10:44:57,195:INFO:Importing libraries
+2022-10-07 10:44:57,195:INFO:Copying training dataset
+2022-10-07 10:44:57,197:INFO:Defining folds
+2022-10-07 10:44:57,197:INFO:Declaring metric variables
+2022-10-07 10:44:57,197:INFO:Importing untrained model
+2022-10-07 10:44:57,201:INFO:Auto ARIMA Imported successfully
+2022-10-07 10:44:57,204:INFO:Starting cross validation
+2022-10-07 10:44:57,205:INFO:Cross validating with ExpandingWindowSplitter(fh=ForecastingHorizon([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18], dtype='int64', is_relative=True),
+            initial_window=None, step_length=18), n_jobs=-1
+2022-10-07 10:44:57,675:ERROR:Fit failed on ForecastingPipeline(steps=[('forecaster',
+                            TransformedTargetForecaster(steps=[('model',
+                                                                AutoARIMA(random_state=2673,
+                                                                          sp=7,
+                                                                          suppress_warnings=True))]))])
+2022-10-07 10:44:57,676:ERROR:zero-size array to reduction operation maximum which has no identity
+2022-10-07 10:44:59,283:WARNING:C:\Users\Kunal\anaconda3\lib\site-packages\sktime\performance_metrics\forecasting\_functions.py:1545: FutureWarning: In the percentage error metric functions the default argument symmetric=True is changing to symmetric=False in v0.12.0.
+  warn(
+
+2022-10-07 10:44:59,284:WARNING:C:\Users\Kunal\anaconda3\lib\site-packages\sktime\performance_metrics\forecasting\_functions.py:1545: FutureWarning: In the percentage error metric functions the default argument symmetric=True is changing to symmetric=False in v0.12.0.
+  warn(
+
+2022-10-07 10:44:59,590:WARNING:C:\Users\Kunal\anaconda3\lib\site-packages\sktime\performance_metrics\forecasting\_functions.py:1545: FutureWarning: In the percentage error metric functions the default argument symmetric=True is changing to symmetric=False in v0.12.0.
+  warn(
+
+2022-10-07 10:44:59,590:WARNING:C:\Users\Kunal\anaconda3\lib\site-packages\sktime\performance_metrics\forecasting\_functions.py:1545: FutureWarning: In the percentage error metric functions the default argument symmetric=True is changing to symmetric=False in v0.12.0.
+  warn(
+
+2022-10-07 10:44:59,592:INFO:Calculating mean and std
+2022-10-07 10:44:59,593:INFO:Creating metrics dataframe
+2022-10-07 10:44:59,597:INFO:Uploading results into container
+2022-10-07 10:44:59,598:INFO:Uploading model into container now
+2022-10-07 10:44:59,598:INFO:master_model_container: 7
+2022-10-07 10:44:59,599:INFO:display_container: 2
+2022-10-07 10:44:59,600:INFO:AutoARIMA(random_state=2673, sp=7, suppress_warnings=True)
+2022-10-07 10:44:59,600:INFO:create_model() successfully completed......................................
+2022-10-07 10:44:59,704:ERROR:create_model() for AutoARIMA(random_state=2673, sp=7, suppress_warnings=True) raised an exception or returned all 0.0:
+2022-10-07 10:44:59,706:ERROR:Traceback (most recent call last):
+  File "C:\Users\Kunal\anaconda3\lib\site-packages\streamlit\caching\cache_utils.py", line 126, in get_or_create_cached_value
+    return_value = cache.read_value(value_key)
+  File "C:\Users\Kunal\anaconda3\lib\site-packages\streamlit\caching\singleton_decorator.py", line 262, in read_value
+    raise CacheKeyNotFoundError()
+streamlit.caching.cache_errors.CacheKeyNotFoundError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Kunal\anaconda3\lib\site-packages\pycaret\internal\pycaret_experiment\supervised_experiment.py", line 794, in compare_models
+    assert (
+AssertionError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Kunal\anaconda3\lib\site-packages\pycaret\internal\pycaret_experiment\supervised_experiment.py", line 810, in compare_models
+    assert (
+AssertionError
+
+2022-10-07 10:44:59,706:INFO:Initializing Exponential Smoothing
+2022-10-07 10:44:59,707:INFO:Total runtime is 0.3294227520624797 minutes
+2022-10-07 10:44:59,708:INFO:SubProcess create_model() called ==================================
+2022-10-07 10:44:59,709:INFO:Initializing create_model()
+2022-10-07 10:44:59,709:INFO:create_model(self=<pycaret.time_series.forecasting.oop.TSForecastingExperiment object at 0x00000183D7A92760>, estimator=exp_smooth, fold=None, round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x00000183E1F1F0D0>, model_only=True, return_train_score=False, kwargs={})
+2022-10-07 10:44:59,710:INFO:Checking exceptions
+2022-10-07 10:44:59,712:INFO:Importing libraries
+2022-10-07 10:44:59,712:INFO:Copying training dataset
+2022-10-07 10:44:59,715:INFO:Defining folds
+2022-10-07 10:44:59,715:INFO:Declaring metric variables
+2022-10-07 10:44:59,715:INFO:Importing untrained model
+2022-10-07 10:44:59,717:INFO:Exponential Smoothing Imported successfully
+2022-10-07 10:44:59,717:INFO:Starting cross validation
+2022-10-07 10:44:59,718:INFO:Cross validating with ExpandingWindowSplitter(fh=ForecastingHorizon([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18], dtype='int64', is_relative=True),
+            initial_window=None, step_length=18), n_jobs=-1
+2022-10-07 10:44:59,883:WARNING:C:\Users\Kunal\anaconda3\lib\site-packages\sktime\performance_metrics\forecasting\_functions.py:1545: FutureWarning: In the percentage error metric functions the default argument symmetric=True is changing to symmetric=False in v0.12.0.
+  warn(
+
+2022-10-07 10:44:59,884:WARNING:C:\Users\Kunal\anaconda3\lib\site-packages\sktime\performance_metrics\forecasting\_functions.py:1545: FutureWarning: In the percentage error metric functions the default argument symmetric=True is changing to symmetric=False in v0.12.0.
+  warn(
+
+2022-10-07 10:44:59,891:WARNING:C:\Users\Kunal\anaconda3\lib\site-packages\sktime\performance_metrics\forecasting\_functions.py:1545: FutureWarning: In the percentage error metric functions the default argument symmetric=True is changing to symmetric=False in v0.12.0.
+  warn(
+
+2022-10-07 10:44:59,892:WARNING:C:\Users\Kunal\anaconda3\lib\site-packages\sktime\performance_metrics\forecasting\_functions.py:1545: FutureWarning: In the percentage error metric functions the default argument symmetric=True is changing to symmetric=False in v0.12.0.
+  warn(
+
+2022-10-07 10:44:59,897:WARNING:C:\Users\Kunal\anaconda3\lib\site-packages\sktime\performance_metrics\forecasting\_functions.py:1545: FutureWarning: In the percentage error metric functions the default argument symmetric=True is changing to symmetric=False in v0.12.0.
+  warn(
+
+2022-10-07 10:44:59,898:WARNING:C:\Users\Kunal\anaconda3\lib\site-packages\sktime\performance_metrics\forecasting\_functions.py:1545: FutureWarning: In the percentage error metric functions the default argument symmetric=True is changing to symmetric=False in v0.12.0.
+  warn(
+
+2022-10-07 10:44:59,899:INFO:Calculating mean and std
+2022-10-07 10:44:59,900:INFO:Creating metrics dataframe
+2022-10-07 10:44:59,905:INFO:Uploading results into container
+2022-10-07 10:44:59,905:INFO:Uploading model into container now
+2022-10-07 10:44:59,906:INFO:master_model_container: 8
+2022-10-07 10:44:59,907:INFO:display_container: 2
+2022-10-07 10:44:59,907:INFO:ExponentialSmoothing(seasonal='mul', sp=7, trend='add')
+2022-10-07 10:44:59,909:INFO:create_model() successfully completed......................................
+2022-10-07 10:45:00,010:INFO:SubProcess create_model() end ==================================
+2022-10-07 10:45:00,010:INFO:Creating metrics dataframe
+2022-10-07 10:45:00,021:INFO:Initializing Croston
+2022-10-07 10:45:00,021:INFO:Total runtime is 0.3346531470616659 minutes
+2022-10-07 10:45:00,022:INFO:SubProcess create_model() called ==================================
+2022-10-07 10:45:00,023:INFO:Initializing create_model()
+2022-10-07 10:45:00,024:INFO:create_model(self=<pycaret.time_series.forecasting.oop.TSForecastingExperiment object at 0x00000183D7A92760>, estimator=croston, fold=None, round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x00000183E1F1F0D0>, model_only=True, return_train_score=False, kwargs={})
+2022-10-07 10:45:00,025:INFO:Checking exceptions
+2022-10-07 10:45:00,027:INFO:Importing libraries
+2022-10-07 10:45:00,028:INFO:Copying training dataset
+2022-10-07 10:45:00,031:INFO:Defining folds
+2022-10-07 10:45:00,032:INFO:Declaring metric variables
+2022-10-07 10:45:00,032:INFO:Importing untrained model
+2022-10-07 10:45:00,034:INFO:Croston Imported successfully
+2022-10-07 10:45:00,035:INFO:Starting cross validation
+2022-10-07 10:45:00,036:INFO:Cross validating with ExpandingWindowSplitter(fh=ForecastingHorizon([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18], dtype='int64', is_relative=True),
+            initial_window=None, step_length=18), n_jobs=-1
+2022-10-07 10:45:00,070:WARNING:C:\Users\Kunal\anaconda3\lib\site-packages\sktime\performance_metrics\forecasting\_functions.py:1545: FutureWarning: In the percentage error metric functions the default argument symmetric=True is changing to symmetric=False in v0.12.0.
+  warn(
+
+2022-10-07 10:45:00,070:WARNING:C:\Users\Kunal\anaconda3\lib\site-packages\sktime\performance_metrics\forecasting\_functions.py:1545: FutureWarning: In the percentage error metric functions the default argument symmetric=True is changing to symmetric=False in v0.12.0.
+  warn(
+
+2022-10-07 10:45:00,071:WARNING:C:\Users\Kunal\anaconda3\lib\site-packages\sktime\performance_metrics\forecasting\_functions.py:1545: FutureWarning: In the percentage error metric functions the default argument symmetric=True is changing to symmetric=False in v0.12.0.
+  warn(
+
+2022-10-07 10:45:00,071:WARNING:C:\Users\Kunal\anaconda3\lib\site-packages\sktime\performance_metrics\forecasting\_functions.py:1545: FutureWarning: In the percentage error metric functions the default argument symmetric=True is changing to symmetric=False in v0.12.0.
+  warn(
+
+2022-10-07 10:45:00,079:WARNING:C:\Users\Kunal\anaconda3\lib\site-packages\sktime\performance_metrics\forecasting\_functions.py:1545: FutureWarning: In the percentage error metric functions the default argument symmetric=True is changing to symmetric=False in v0.12.0.
+  warn(
+
+2022-10-07 10:45:00,079:WARNING:C:\Users\Kunal\anaconda3\lib\site-packages\sktime\performance_metrics\forecasting\_functions.py:1545: FutureWarning: In the percentage error metric functions the default argument symmetric=True is changing to symmetric=False in v0.12.0.
+  warn(
+
+2022-10-07 10:45:00,081:INFO:Calculating mean and std
+2022-10-07 10:45:00,081:INFO:Creating metrics dataframe
+2022-10-07 10:45:00,086:INFO:Uploading results into container
+2022-10-07 10:45:00,086:INFO:Uploading model into container now
+2022-10-07 10:45:00,087:INFO:master_model_container: 9
+2022-10-07 10:45:00,087:INFO:display_container: 2
+2022-10-07 10:45:00,087:INFO:Croston()
+2022-10-07 10:45:00,089:INFO:create_model() successfully completed......................................
+2022-10-07 10:45:00,189:INFO:SubProcess create_model() end ==================================
+2022-10-07 10:45:00,189:INFO:Creating metrics dataframe
+2022-10-07 10:45:00,197:INFO:Initializing ETS
+2022-10-07 10:45:00,198:INFO:Total runtime is 0.33760816256205245 minutes
+2022-10-07 10:45:00,198:INFO:SubProcess create_model() called ==================================
+2022-10-07 10:45:00,200:INFO:Initializing create_model()
+2022-10-07 10:45:00,200:INFO:create_model(self=<pycaret.time_series.forecasting.oop.TSForecastingExperiment object at 0x00000183D7A92760>, estimator=ets, fold=None, round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x00000183E1F1F0D0>, model_only=True, return_train_score=False, kwargs={})
+2022-10-07 10:45:00,202:INFO:Checking exceptions
+2022-10-07 10:45:00,206:INFO:Importing libraries
+2022-10-07 10:45:00,206:INFO:Copying training dataset
+2022-10-07 10:45:00,210:INFO:Defining folds
+2022-10-07 10:45:00,211:INFO:Declaring metric variables
+2022-10-07 10:45:00,211:INFO:Importing untrained model
+2022-10-07 10:45:00,212:INFO:ETS Imported successfully
+2022-10-07 10:45:00,213:INFO:Starting cross validation
+2022-10-07 10:45:00,213:INFO:Cross validating with ExpandingWindowSplitter(fh=ForecastingHorizon([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18], dtype='int64', is_relative=True),
+            initial_window=None, step_length=18), n_jobs=-1
+2022-10-07 10:45:00,323:WARNING:C:\Users\Kunal\anaconda3\lib\site-packages\sktime\performance_metrics\forecasting\_functions.py:1545: FutureWarning: In the percentage error metric functions the default argument symmetric=True is changing to symmetric=False in v0.12.0.
+  warn(
+
+2022-10-07 10:45:00,323:WARNING:C:\Users\Kunal\anaconda3\lib\site-packages\sktime\performance_metrics\forecasting\_functions.py:1545: FutureWarning: In the percentage error metric functions the default argument symmetric=True is changing to symmetric=False in v0.12.0.
+  warn(
+
+2022-10-07 10:45:00,324:WARNING:C:\Users\Kunal\anaconda3\lib\site-packages\sktime\performance_metrics\forecasting\_functions.py:1545: FutureWarning: In the percentage error metric functions the default argument symmetric=True is changing to symmetric=False in v0.12.0.
+  warn(
+
+2022-10-07 10:45:00,324:WARNING:C:\Users\Kunal\anaconda3\lib\site-packages\sktime\performance_metrics\forecasting\_functions.py:1545: FutureWarning: In the percentage error metric functions the default argument symmetric=True is changing to symmetric=False in v0.12.0.
+  warn(
+
+2022-10-07 10:45:00,325:WARNING:C:\Users\Kunal\anaconda3\lib\site-packages\sktime\performance_metrics\forecasting\_functions.py:1545: FutureWarning: In the percentage error metric functions the default argument symmetric=True is changing to symmetric=False in v0.12.0.
+  warn(
+
+2022-10-07 10:45:00,325:WARNING:C:\Users\Kunal\anaconda3\lib\site-packages\sktime\performance_metrics\forecasting\_functions.py:1545: FutureWarning: In the percentage error metric functions the default argument symmetric=True is changing to symmetric=False in v0.12.0.
+  warn(
+
+2022-10-07 10:45:00,327:INFO:Calculating mean and std
+2022-10-07 10:45:00,328:INFO:Creating metrics dataframe
+2022-10-07 10:45:00,331:INFO:Uploading results into container
+2022-10-07 10:45:00,332:INFO:Uploading model into container now
+2022-10-07 10:45:00,332:INFO:master_model_container: 10
+2022-10-07 10:45:00,334:INFO:display_container: 2
+2022-10-07 10:45:00,335:INFO:AutoETS(seasonal='mul', sp=7, trend='add')
+2022-10-07 10:45:00,336:INFO:create_model() successfully completed......................................
+2022-10-07 10:45:00,439:INFO:SubProcess create_model() end ==================================
+2022-10-07 10:45:00,440:INFO:Creating metrics dataframe
+2022-10-07 10:45:00,447:INFO:Initializing Theta Forecaster
+2022-10-07 10:45:00,447:INFO:Total runtime is 0.3417601426442465 minutes
+2022-10-07 10:45:00,448:INFO:SubProcess create_model() called ==================================
+2022-10-07 10:45:00,450:INFO:Initializing create_model()
+2022-10-07 10:45:00,450:INFO:create_model(self=<pycaret.time_series.forecasting.oop.TSForecastingExperiment object at 0x00000183D7A92760>, estimator=theta, fold=None, round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x00000183E1F1F0D0>, model_only=True, return_train_score=False, kwargs={})
+2022-10-07 10:45:00,452:INFO:Checking exceptions
+2022-10-07 10:45:00,455:INFO:Importing libraries
+2022-10-07 10:45:00,455:INFO:Copying training dataset
+2022-10-07 10:45:00,458:INFO:Defining folds
+2022-10-07 10:45:00,459:INFO:Declaring metric variables
+2022-10-07 10:45:00,459:INFO:Importing untrained model
+2022-10-07 10:45:00,461:INFO:Theta Forecaster Imported successfully
+2022-10-07 10:45:00,462:INFO:Starting cross validation
+2022-10-07 10:45:00,463:INFO:Cross validating with ExpandingWindowSplitter(fh=ForecastingHorizon([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18], dtype='int64', is_relative=True),
+            initial_window=None, step_length=18), n_jobs=-1
+2022-10-07 10:45:00,539:WARNING:C:\Users\Kunal\anaconda3\lib\site-packages\sktime\performance_metrics\forecasting\_functions.py:1545: FutureWarning: In the percentage error metric functions the default argument symmetric=True is changing to symmetric=False in v0.12.0.
+  warn(
+
+2022-10-07 10:45:00,539:WARNING:C:\Users\Kunal\anaconda3\lib\site-packages\sktime\performance_metrics\forecasting\_functions.py:1545: FutureWarning: In the percentage error metric functions the default argument symmetric=True is changing to symmetric=False in v0.12.0.
+  warn(
+
+2022-10-07 10:45:00,556:WARNING:C:\Users\Kunal\anaconda3\lib\site-packages\sktime\performance_metrics\forecasting\_functions.py:1545: FutureWarning: In the percentage error metric functions the default argument symmetric=True is changing to symmetric=False in v0.12.0.
+  warn(
+
+2022-10-07 10:45:00,556:WARNING:C:\Users\Kunal\anaconda3\lib\site-packages\sktime\performance_metrics\forecasting\_functions.py:1545: FutureWarning: In the percentage error metric functions the default argument symmetric=True is changing to symmetric=False in v0.12.0.
+  warn(
+
+2022-10-07 10:45:00,565:WARNING:C:\Users\Kunal\anaconda3\lib\site-packages\sktime\performance_metrics\forecasting\_functions.py:1545: FutureWarning: In the percentage error metric functions the default argument symmetric=True is changing to symmetric=False in v0.12.0.
+  warn(
+
+2022-10-07 10:45:00,566:WARNING:C:\Users\Kunal\anaconda3\lib\site-packages\sktime\performance_metrics\forecasting\_functions.py:1545: FutureWarning: In the percentage error metric functions the default argument symmetric=True is changing to symmetric=False in v0.12.0.
+  warn(
+
+2022-10-07 10:45:00,569:INFO:Calculating mean and std
+2022-10-07 10:45:00,571:INFO:Creating metrics dataframe
+2022-10-07 10:45:00,577:INFO:Uploading results into container
+2022-10-07 10:45:00,577:INFO:Uploading model into container now
+2022-10-07 10:45:00,578:INFO:master_model_container: 11
+2022-10-07 10:45:00,579:INFO:display_container: 2
+2022-10-07 10:45:00,579:INFO:ThetaForecaster(sp=7)
+2022-10-07 10:45:00,580:INFO:create_model() successfully completed......................................
+2022-10-07 10:45:00,707:INFO:SubProcess create_model() end ==================================
+2022-10-07 10:45:00,707:INFO:Creating metrics dataframe
+2022-10-07 10:45:00,714:INFO:Initializing Linear w/ Cond. Deseasonalize & Detrending
+2022-10-07 10:45:00,715:INFO:Total runtime is 0.3462155938148499 minutes
+2022-10-07 10:45:00,715:INFO:SubProcess create_model() called ==================================
+2022-10-07 10:45:00,716:INFO:Initializing create_model()
+2022-10-07 10:45:00,716:INFO:create_model(self=<pycaret.time_series.forecasting.oop.TSForecastingExperiment object at 0x00000183D7A92760>, estimator=lr_cds_dt, fold=None, round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x00000183E1F1F0D0>, model_only=True, return_train_score=False, kwargs={})
+2022-10-07 10:45:00,717:INFO:Checking exceptions
+2022-10-07 10:45:00,719:INFO:Importing libraries
+2022-10-07 10:45:00,719:INFO:Copying training dataset
+2022-10-07 10:45:00,722:INFO:Defining folds
+2022-10-07 10:45:00,722:INFO:Declaring metric variables
+2022-10-07 10:45:00,723:INFO:Importing untrained model
+2022-10-07 10:45:00,724:INFO:Linear w/ Cond. Deseasonalize & Detrending Imported successfully
+2022-10-07 10:45:00,724:INFO:Starting cross validation
+2022-10-07 10:45:00,725:INFO:Cross validating with ExpandingWindowSplitter(fh=ForecastingHorizon([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18], dtype='int64', is_relative=True),
+            initial_window=None, step_length=18), n_jobs=-1
+2022-10-07 10:45:01,005:INFO:Soft dependency imported: prophet: 1.1.1
+2022-10-07 10:45:01,005:INFO:Soft dependency imported: prophet: 1.1.1
+2022-10-07 10:45:01,005:INFO:Soft dependency imported: prophet: 1.1.1
+2022-10-07 10:45:01,024:WARNING:C:\Users\Kunal\anaconda3\lib\site-packages\sktime\utils\seasonality.py:44: UserWarning: Did not perform seasonality test, as `y`` is too short for the given `sp`, returned: False
+  warn(
+
+2022-10-07 10:45:01,069:WARNING:C:\Users\Kunal\anaconda3\lib\site-packages\sktime\performance_metrics\forecasting\_functions.py:1545: FutureWarning: In the percentage error metric functions the default argument symmetric=True is changing to symmetric=False in v0.12.0.
+  warn(
+
+2022-10-07 10:45:01,070:WARNING:C:\Users\Kunal\anaconda3\lib\site-packages\sktime\performance_metrics\forecasting\_functions.py:1545: FutureWarning: In the percentage error metric functions the default argument symmetric=True is changing to symmetric=False in v0.12.0.
+  warn(
+
+2022-10-07 10:45:01,075:WARNING:C:\Users\Kunal\anaconda3\lib\site-packages\sktime\performance_metrics\forecasting\_functions.py:1545: FutureWarning: In the percentage error metric functions the default argument symmetric=True is changing to symmetric=False in v0.12.0.
+  warn(
+
+2022-10-07 10:45:01,075:WARNING:C:\Users\Kunal\anaconda3\lib\site-packages\sktime\performance_metrics\forecasting\_functions.py:1545: FutureWarning: In the percentage error metric functions the default argument symmetric=True is changing to symmetric=False in v0.12.0.
+  warn(
+
+2022-10-07 10:45:01,082:WARNING:C:\Users\Kunal\anaconda3\lib\site-packages\sktime\performance_metrics\forecasting\_functions.py:1545: FutureWarning: In the percentage error metric functions the default argument symmetric=True is changing to symmetric=False in v0.12.0.
+  warn(
+
+2022-10-07 10:45:01,082:WARNING:C:\Users\Kunal\anaconda3\lib\site-packages\sktime\performance_metrics\forecasting\_functions.py:1545: FutureWarning: In the percentage error metric functions the default argument symmetric=True is changing to symmetric=False in v0.12.0.
+  warn(
+
+2022-10-07 10:45:01,084:INFO:Calculating mean and std
+2022-10-07 10:45:01,086:INFO:Creating metrics dataframe
+2022-10-07 10:45:01,089:INFO:Uploading results into container
+2022-10-07 10:45:01,089:INFO:Uploading model into container now
+2022-10-07 10:45:01,090:INFO:master_model_container: 12
+2022-10-07 10:45:01,091:INFO:display_container: 2
+2022-10-07 10:45:01,091:INFO:BaseCdsDtForecaster(regressor=LinearRegression(n_jobs=-1), sp=7,
+                    window_length=7)
+2022-10-07 10:45:01,092:INFO:create_model() successfully completed......................................
+2022-10-07 10:45:01,193:INFO:SubProcess create_model() end ==================================
+2022-10-07 10:45:01,193:INFO:Creating metrics dataframe
+2022-10-07 10:45:01,201:INFO:Initializing Elastic Net w/ Cond. Deseasonalize & Detrending
+2022-10-07 10:45:01,201:INFO:Total runtime is 0.3543302615483602 minutes
+2022-10-07 10:45:01,203:INFO:SubProcess create_model() called ==================================
+2022-10-07 10:45:01,204:INFO:Initializing create_model()
+2022-10-07 10:45:01,205:INFO:create_model(self=<pycaret.time_series.forecasting.oop.TSForecastingExperiment object at 0x00000183D7A92760>, estimator=en_cds_dt, fold=None, round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x00000183E1F1F0D0>, model_only=True, return_train_score=False, kwargs={})
+2022-10-07 10:45:01,206:INFO:Checking exceptions
+2022-10-07 10:45:01,208:INFO:Importing libraries
+2022-10-07 10:45:01,208:INFO:Copying training dataset
+2022-10-07 10:45:01,212:INFO:Defining folds
+2022-10-07 10:45:01,212:INFO:Declaring metric variables
+2022-10-07 10:45:01,213:INFO:Importing untrained model
+2022-10-07 10:45:01,215:INFO:Elastic Net w/ Cond. Deseasonalize & Detrending Imported successfully
+2022-10-07 10:45:01,216:INFO:Starting cross validation
+2022-10-07 10:45:01,216:INFO:Cross validating with ExpandingWindowSplitter(fh=ForecastingHorizon([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18], dtype='int64', is_relative=True),
+            initial_window=None, step_length=18), n_jobs=-1
+2022-10-07 10:45:01,412:INFO:Soft dependency imported: prophet: 1.1.1
+2022-10-07 10:45:01,417:INFO:Soft dependency imported: prophet: 1.1.1
+2022-10-07 10:45:01,422:INFO:Soft dependency imported: prophet: 1.1.1
+2022-10-07 10:45:01,434:WARNING:C:\Users\Kunal\anaconda3\lib\site-packages\sktime\utils\seasonality.py:44: UserWarning: Did not perform seasonality test, as `y`` is too short for the given `sp`, returned: False
+  warn(
+
+2022-10-07 10:45:01,459:WARNING:C:\Users\Kunal\anaconda3\lib\site-packages\sklearn\linear_model\_coordinate_descent.py:648: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 2.332e+03, tolerance: 7.771e+02
+  model = cd_fast.enet_coordinate_descent(
+
+2022-10-07 10:45:01,480:WARNING:C:\Users\Kunal\anaconda3\lib\site-packages\sktime\performance_metrics\forecasting\_functions.py:1545: FutureWarning: In the percentage error metric functions the default argument symmetric=True is changing to symmetric=False in v0.12.0.
+  warn(
+
+2022-10-07 10:45:01,480:WARNING:C:\Users\Kunal\anaconda3\lib\site-packages\sktime\performance_metrics\forecasting\_functions.py:1545: FutureWarning: In the percentage error metric functions the default argument symmetric=True is changing to symmetric=False in v0.12.0.
+  warn(
+
+2022-10-07 10:45:01,493:WARNING:C:\Users\Kunal\anaconda3\lib\site-packages\sktime\performance_metrics\forecasting\_functions.py:1545: FutureWarning: In the percentage error metric functions the default argument symmetric=True is changing to symmetric=False in v0.12.0.
+  warn(
+
+2022-10-07 10:45:01,494:WARNING:C:\Users\Kunal\anaconda3\lib\site-packages\sktime\performance_metrics\forecasting\_functions.py:1545: FutureWarning: In the percentage error metric functions the default argument symmetric=True is changing to symmetric=False in v0.12.0.
+  warn(
+
+2022-10-07 10:45:01,511:WARNING:C:\Users\Kunal\anaconda3\lib\site-packages\sktime\performance_metrics\forecasting\_functions.py:1545: FutureWarning: In the percentage error metric functions the default argument symmetric=True is changing to symmetric=False in v0.12.0.
+  warn(
+
+2022-10-07 10:45:01,512:WARNING:C:\Users\Kunal\anaconda3\lib\site-packages\sktime\performance_metrics\forecasting\_functions.py:1545: FutureWarning: In the percentage error metric functions the default argument symmetric=True is changing to symmetric=False in v0.12.0.
+  warn(
+
+2022-10-07 10:45:01,514:INFO:Calculating mean and std
+2022-10-07 10:45:01,515:INFO:Creating metrics dataframe
+2022-10-07 10:45:01,520:INFO:Uploading results into container
+2022-10-07 10:45:01,520:INFO:Uploading model into container now
+2022-10-07 10:45:01,520:INFO:master_model_container: 13
+2022-10-07 10:45:01,521:INFO:display_container: 2
+2022-10-07 10:45:01,522:INFO:BaseCdsDtForecaster(regressor=ElasticNet(random_state=2673), sp=7,
+                    window_length=7)
+2022-10-07 10:45:01,523:INFO:create_model() successfully completed......................................
+2022-10-07 10:45:01,622:INFO:SubProcess create_model() end ==================================
+2022-10-07 10:45:01,622:INFO:Creating metrics dataframe
+2022-10-07 10:45:01,630:INFO:Initializing Ridge w/ Cond. Deseasonalize & Detrending
+2022-10-07 10:45:01,630:INFO:Total runtime is 0.3614740649859111 minutes
+2022-10-07 10:45:01,631:INFO:SubProcess create_model() called ==================================
+2022-10-07 10:45:01,632:INFO:Initializing create_model()
+2022-10-07 10:45:01,633:INFO:create_model(self=<pycaret.time_series.forecasting.oop.TSForecastingExperiment object at 0x00000183D7A92760>, estimator=ridge_cds_dt, fold=None, round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x00000183E1F1F0D0>, model_only=True, return_train_score=False, kwargs={})
+2022-10-07 10:45:01,634:INFO:Checking exceptions
+2022-10-07 10:45:01,638:INFO:Importing libraries
+2022-10-07 10:45:01,639:INFO:Copying training dataset
+2022-10-07 10:45:01,642:INFO:Defining folds
+2022-10-07 10:45:01,642:INFO:Declaring metric variables
+2022-10-07 10:45:01,642:INFO:Importing untrained model
+2022-10-07 10:45:01,644:INFO:Ridge w/ Cond. Deseasonalize & Detrending Imported successfully
+2022-10-07 10:45:01,645:INFO:Starting cross validation
+2022-10-07 10:45:01,646:INFO:Cross validating with ExpandingWindowSplitter(fh=ForecastingHorizon([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18], dtype='int64', is_relative=True),
+            initial_window=None, step_length=18), n_jobs=-1
+2022-10-07 10:45:01,756:WARNING:C:\Users\Kunal\anaconda3\lib\site-packages\sktime\performance_metrics\forecasting\_functions.py:1545: FutureWarning: In the percentage error metric functions the default argument symmetric=True is changing to symmetric=False in v0.12.0.
+  warn(
+
+2022-10-07 10:45:01,756:WARNING:C:\Users\Kunal\anaconda3\lib\site-packages\sktime\performance_metrics\forecasting\_functions.py:1545: FutureWarning: In the percentage error metric functions the default argument symmetric=True is changing to symmetric=False in v0.12.0.
+  warn(
+
+2022-10-07 10:45:01,837:INFO:Soft dependency imported: prophet: 1.1.1
+2022-10-07 10:45:01,840:INFO:Soft dependency imported: prophet: 1.1.1
+2022-10-07 10:45:01,854:WARNING:C:\Users\Kunal\anaconda3\lib\site-packages\sktime\utils\seasonality.py:44: UserWarning: Did not perform seasonality test, as `y`` is too short for the given `sp`, returned: False
+  warn(
+
+2022-10-07 10:45:01,905:WARNING:C:\Users\Kunal\anaconda3\lib\site-packages\sktime\performance_metrics\forecasting\_functions.py:1545: FutureWarning: In the percentage error metric functions the default argument symmetric=True is changing to symmetric=False in v0.12.0.
+  warn(
+
+2022-10-07 10:45:01,905:WARNING:C:\Users\Kunal\anaconda3\lib\site-packages\sktime\performance_metrics\forecasting\_functions.py:1545: FutureWarning: In the percentage error metric functions the default argument symmetric=True is changing to symmetric=False in v0.12.0.
+  warn(
+
+2022-10-07 10:45:01,915:WARNING:C:\Users\Kunal\anaconda3\lib\site-packages\sktime\performance_metrics\forecasting\_functions.py:1545: FutureWarning: In the percentage error metric functions the default argument symmetric=True is changing to symmetric=False in v0.12.0.
+  warn(
+
+2022-10-07 10:45:01,915:WARNING:C:\Users\Kunal\anaconda3\lib\site-packages\sktime\performance_metrics\forecasting\_functions.py:1545: FutureWarning: In the percentage error metric functions the default argument symmetric=True is changing to symmetric=False in v0.12.0.
+  warn(
+
+2022-10-07 10:45:01,918:INFO:Calculating mean and std
+2022-10-07 10:45:01,919:INFO:Creating metrics dataframe
+2022-10-07 10:45:01,923:INFO:Uploading results into container
+2022-10-07 10:45:01,923:INFO:Uploading model into container now
+2022-10-07 10:45:01,924:INFO:master_model_container: 14
+2022-10-07 10:45:01,925:INFO:display_container: 2
+2022-10-07 10:45:01,925:INFO:BaseCdsDtForecaster(regressor=Ridge(random_state=2673), sp=7, window_length=7)
+2022-10-07 10:45:01,926:INFO:create_model() successfully completed......................................
+2022-10-07 10:45:02,026:INFO:SubProcess create_model() end ==================================
+2022-10-07 10:45:02,027:INFO:Creating metrics dataframe
+2022-10-07 10:45:02,036:INFO:Initializing Lasso w/ Cond. Deseasonalize & Detrending
+2022-10-07 10:45:02,036:INFO:Total runtime is 0.3682401100794475 minutes
+2022-10-07 10:45:02,037:INFO:SubProcess create_model() called ==================================
+2022-10-07 10:45:02,039:INFO:Initializing create_model()
+2022-10-07 10:45:02,039:INFO:create_model(self=<pycaret.time_series.forecasting.oop.TSForecastingExperiment object at 0x00000183D7A92760>, estimator=lasso_cds_dt, fold=None, round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x00000183E1F1F0D0>, model_only=True, return_train_score=False, kwargs={})
+2022-10-07 10:45:02,042:INFO:Checking exceptions
+2022-10-07 10:45:02,043:INFO:Importing libraries
+2022-10-07 10:45:02,043:INFO:Copying training dataset
+2022-10-07 10:45:02,047:INFO:Defining folds
+2022-10-07 10:45:02,047:INFO:Declaring metric variables
+2022-10-07 10:45:02,047:INFO:Importing untrained model
+2022-10-07 10:45:02,049:INFO:Lasso w/ Cond. Deseasonalize & Detrending Imported successfully
+2022-10-07 10:45:02,050:INFO:Starting cross validation
+2022-10-07 10:45:02,050:INFO:Cross validating with ExpandingWindowSplitter(fh=ForecastingHorizon([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18], dtype='int64', is_relative=True),
+            initial_window=None, step_length=18), n_jobs=-1
+2022-10-07 10:45:02,076:WARNING:C:\Users\Kunal\anaconda3\lib\site-packages\sktime\utils\seasonality.py:44: UserWarning: Did not perform seasonality test, as `y`` is too short for the given `sp`, returned: False
+  warn(
+
+2022-10-07 10:45:02,130:WARNING:C:\Users\Kunal\anaconda3\lib\site-packages\sktime\performance_metrics\forecasting\_functions.py:1545: FutureWarning: In the percentage error metric functions the default argument symmetric=True is changing to symmetric=False in v0.12.0.
+  warn(
+
+2022-10-07 10:45:02,130:WARNING:C:\Users\Kunal\anaconda3\lib\site-packages\sktime\performance_metrics\forecasting\_functions.py:1545: FutureWarning: In the percentage error metric functions the default argument symmetric=True is changing to symmetric=False in v0.12.0.
+  warn(
+
+2022-10-07 10:45:02,132:WARNING:C:\Users\Kunal\anaconda3\lib\site-packages\sktime\performance_metrics\forecasting\_functions.py:1545: FutureWarning: In the percentage error metric functions the default argument symmetric=True is changing to symmetric=False in v0.12.0.
+  warn(
+
+2022-10-07 10:45:02,133:WARNING:C:\Users\Kunal\anaconda3\lib\site-packages\sktime\performance_metrics\forecasting\_functions.py:1545: FutureWarning: In the percentage error metric functions the default argument symmetric=True is changing to symmetric=False in v0.12.0.
+  warn(
+
+2022-10-07 10:45:02,149:WARNING:C:\Users\Kunal\anaconda3\lib\site-packages\sktime\performance_metrics\forecasting\_functions.py:1545: FutureWarning: In the percentage error metric functions the default argument symmetric=True is changing to symmetric=False in v0.12.0.
+  warn(
+
+2022-10-07 10:45:02,149:WARNING:C:\Users\Kunal\anaconda3\lib\site-packages\sktime\performance_metrics\forecasting\_functions.py:1545: FutureWarning: In the percentage error metric functions the default argument symmetric=True is changing to symmetric=False in v0.12.0.
+  warn(
+
+2022-10-07 10:45:02,151:INFO:Calculating mean and std
+2022-10-07 10:45:02,153:INFO:Creating metrics dataframe
+2022-10-07 10:45:02,157:INFO:Uploading results into container
+2022-10-07 10:45:02,157:INFO:Uploading model into container now
+2022-10-07 10:45:02,158:INFO:master_model_container: 15
+2022-10-07 10:45:02,159:INFO:display_container: 2
+2022-10-07 10:45:02,159:INFO:BaseCdsDtForecaster(regressor=Lasso(random_state=2673), sp=7, window_length=7)
+2022-10-07 10:45:02,160:INFO:create_model() successfully completed......................................
+2022-10-07 10:45:02,261:INFO:SubProcess create_model() end ==================================
+2022-10-07 10:45:02,262:INFO:Creating metrics dataframe
+2022-10-07 10:45:02,270:INFO:Initializing Least Angular Regressor w/ Cond. Deseasonalize & Detrending
+2022-10-07 10:45:02,270:INFO:Total runtime is 0.37213921944300343 minutes
+2022-10-07 10:45:02,272:INFO:SubProcess create_model() called ==================================
+2022-10-07 10:45:02,273:INFO:Initializing create_model()
+2022-10-07 10:45:02,273:INFO:create_model(self=<pycaret.time_series.forecasting.oop.TSForecastingExperiment object at 0x00000183D7A92760>, estimator=lar_cds_dt, fold=None, round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x00000183E1F1F0D0>, model_only=True, return_train_score=False, kwargs={})
+2022-10-07 10:45:02,275:INFO:Checking exceptions
+2022-10-07 10:45:02,276:INFO:Importing libraries
+2022-10-07 10:45:02,276:INFO:Copying training dataset
+2022-10-07 10:45:02,280:INFO:Defining folds
+2022-10-07 10:45:02,280:INFO:Declaring metric variables
+2022-10-07 10:45:02,281:INFO:Importing untrained model
+2022-10-07 10:45:02,283:INFO:Least Angular Regressor w/ Cond. Deseasonalize & Detrending Imported successfully
+2022-10-07 10:45:02,286:INFO:Starting cross validation
+2022-10-07 10:45:02,287:INFO:Cross validating with ExpandingWindowSplitter(fh=ForecastingHorizon([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18], dtype='int64', is_relative=True),
+            initial_window=None, step_length=18), n_jobs=-1
+2022-10-07 10:45:02,321:WARNING:C:\Users\Kunal\anaconda3\lib\site-packages\sktime\utils\seasonality.py:44: UserWarning: Did not perform seasonality test, as `y`` is too short for the given `sp`, returned: False
+  warn(
+
+2022-10-07 10:45:02,344:WARNING:C:\Users\Kunal\anaconda3\lib\site-packages\sklearn\linear_model\_base.py:133: FutureWarning: The default of 'normalize' will be set to False in version 1.2 and deprecated in version 1.4.
+If you wish to scale the data, use Pipeline with a StandardScaler in a preprocessing stage. To reproduce the previous behavior:
+
+from sklearn.pipeline import make_pipeline
+
+model = make_pipeline(StandardScaler(with_mean=False), Lars())
+
+If you wish to pass a sample_weight parameter, you need to pass it as a fit parameter to each step of the pipeline as follows:
+
+kwargs = {s[0] + '__sample_weight': sample_weight for s in model.steps}
+model.fit(X, y, **kwargs)
+
+
+  warnings.warn(
+
+2022-10-07 10:45:02,358:WARNING:C:\Users\Kunal\anaconda3\lib\site-packages\sklearn\linear_model\_base.py:133: FutureWarning: The default of 'normalize' will be set to False in version 1.2 and deprecated in version 1.4.
+If you wish to scale the data, use Pipeline with a StandardScaler in a preprocessing stage. To reproduce the previous behavior:
+
+from sklearn.pipeline import make_pipeline
+
+model = make_pipeline(StandardScaler(with_mean=False), Lars())
+
+If you wish to pass a sample_weight parameter, you need to pass it as a fit parameter to each step of the pipeline as follows:
+
+kwargs = {s[0] + '__sample_weight': sample_weight for s in model.steps}
+model.fit(X, y, **kwargs)
+
+
+  warnings.warn(
+
+2022-10-07 10:45:02,359:WARNING:C:\Users\Kunal\anaconda3\lib\site-packages\sklearn\linear_model\_base.py:133: FutureWarning: The default of 'normalize' will be set to False in version 1.2 and deprecated in version 1.4.
+If you wish to scale the data, use Pipeline with a StandardScaler in a preprocessing stage. To reproduce the previous behavior:
+
+from sklearn.pipeline import make_pipeline
+
+model = make_pipeline(StandardScaler(with_mean=False), Lars())
+
+If you wish to pass a sample_weight parameter, you need to pass it as a fit parameter to each step of the pipeline as follows:
+
+kwargs = {s[0] + '__sample_weight': sample_weight for s in model.steps}
+model.fit(X, y, **kwargs)
+
+
+  warnings.warn(
+
+2022-10-07 10:45:02,377:WARNING:C:\Users\Kunal\anaconda3\lib\site-packages\sktime\performance_metrics\forecasting\_functions.py:1545: FutureWarning: In the percentage error metric functions the default argument symmetric=True is changing to symmetric=False in v0.12.0.
+  warn(
+
+2022-10-07 10:45:02,378:WARNING:C:\Users\Kunal\anaconda3\lib\site-packages\sktime\performance_metrics\forecasting\_functions.py:1545: FutureWarning: In the percentage error metric functions the default argument symmetric=True is changing to symmetric=False in v0.12.0.
+  warn(
+
+2022-10-07 10:45:02,387:WARNING:C:\Users\Kunal\anaconda3\lib\site-packages\sktime\performance_metrics\forecasting\_functions.py:1545: FutureWarning: In the percentage error metric functions the default argument symmetric=True is changing to symmetric=False in v0.12.0.
+  warn(
+
+2022-10-07 10:45:02,387:WARNING:C:\Users\Kunal\anaconda3\lib\site-packages\sktime\performance_metrics\forecasting\_functions.py:1545: FutureWarning: In the percentage error metric functions the default argument symmetric=True is changing to symmetric=False in v0.12.0.
+  warn(
+
+2022-10-07 10:45:02,388:WARNING:C:\Users\Kunal\anaconda3\lib\site-packages\sktime\performance_metrics\forecasting\_functions.py:1545: FutureWarning: In the percentage error metric functions the default argument symmetric=True is changing to symmetric=False in v0.12.0.
+  warn(
+
+2022-10-07 10:45:02,388:WARNING:C:\Users\Kunal\anaconda3\lib\site-packages\sktime\performance_metrics\forecasting\_functions.py:1545: FutureWarning: In the percentage error metric functions the default argument symmetric=True is changing to symmetric=False in v0.12.0.
+  warn(
+
+2022-10-07 10:45:02,390:INFO:Calculating mean and std
+2022-10-07 10:45:02,392:INFO:Creating metrics dataframe
+2022-10-07 10:45:02,395:INFO:Uploading results into container
+2022-10-07 10:45:02,396:INFO:Uploading model into container now
+2022-10-07 10:45:02,396:INFO:master_model_container: 16
+2022-10-07 10:45:02,397:INFO:display_container: 2
+2022-10-07 10:45:02,397:INFO:BaseCdsDtForecaster(regressor=Lars(random_state=2673), sp=7, window_length=7)
+2022-10-07 10:45:02,398:INFO:create_model() successfully completed......................................
+2022-10-07 10:45:02,499:INFO:SubProcess create_model() end ==================================
+2022-10-07 10:45:02,500:INFO:Creating metrics dataframe
+2022-10-07 10:45:02,509:INFO:Initializing Lasso Least Angular Regressor w/ Cond. Deseasonalize & Detrending
+2022-10-07 10:45:02,510:INFO:Total runtime is 0.37613295714060474 minutes
+2022-10-07 10:45:02,510:INFO:SubProcess create_model() called ==================================
+2022-10-07 10:45:02,511:INFO:Initializing create_model()
+2022-10-07 10:45:02,512:INFO:create_model(self=<pycaret.time_series.forecasting.oop.TSForecastingExperiment object at 0x00000183D7A92760>, estimator=llar_cds_dt, fold=None, round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x00000183E1F1F0D0>, model_only=True, return_train_score=False, kwargs={})
+2022-10-07 10:45:02,513:INFO:Checking exceptions
+2022-10-07 10:45:02,514:INFO:Importing libraries
+2022-10-07 10:45:02,514:INFO:Copying training dataset
+2022-10-07 10:45:02,518:INFO:Defining folds
+2022-10-07 10:45:02,518:INFO:Declaring metric variables
+2022-10-07 10:45:02,519:INFO:Importing untrained model
+2022-10-07 10:45:02,521:INFO:Lasso Least Angular Regressor w/ Cond. Deseasonalize & Detrending Imported successfully
+2022-10-07 10:45:02,523:INFO:Starting cross validation
+2022-10-07 10:45:02,525:INFO:Cross validating with ExpandingWindowSplitter(fh=ForecastingHorizon([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18], dtype='int64', is_relative=True),
+            initial_window=None, step_length=18), n_jobs=-1
+2022-10-07 10:45:02,553:WARNING:C:\Users\Kunal\anaconda3\lib\site-packages\sktime\utils\seasonality.py:44: UserWarning: Did not perform seasonality test, as `y`` is too short for the given `sp`, returned: False
+  warn(
+
+2022-10-07 10:45:02,574:WARNING:C:\Users\Kunal\anaconda3\lib\site-packages\sklearn\linear_model\_base.py:133: FutureWarning: The default of 'normalize' will be set to False in version 1.2 and deprecated in version 1.4.
+If you wish to scale the data, use Pipeline with a StandardScaler in a preprocessing stage. To reproduce the previous behavior:
+
+from sklearn.pipeline import make_pipeline
+
+model = make_pipeline(StandardScaler(with_mean=False), LassoLars())
+
+If you wish to pass a sample_weight parameter, you need to pass it as a fit parameter to each step of the pipeline as follows:
+
+kwargs = {s[0] + '__sample_weight': sample_weight for s in model.steps}
+model.fit(X, y, **kwargs)
+
+Set parameter alpha to: original_alpha * np.sqrt(n_samples). 
+  warnings.warn(
+
+2022-10-07 10:45:02,588:WARNING:C:\Users\Kunal\anaconda3\lib\site-packages\sklearn\linear_model\_base.py:133: FutureWarning: The default of 'normalize' will be set to False in version 1.2 and deprecated in version 1.4.
+If you wish to scale the data, use Pipeline with a StandardScaler in a preprocessing stage. To reproduce the previous behavior:
+
+from sklearn.pipeline import make_pipeline
+
+model = make_pipeline(StandardScaler(with_mean=False), LassoLars())
+
+If you wish to pass a sample_weight parameter, you need to pass it as a fit parameter to each step of the pipeline as follows:
+
+kwargs = {s[0] + '__sample_weight': sample_weight for s in model.steps}
+model.fit(X, y, **kwargs)
+
+Set parameter alpha to: original_alpha * np.sqrt(n_samples). 
+  warnings.warn(
+
+2022-10-07 10:45:02,595:WARNING:C:\Users\Kunal\anaconda3\lib\site-packages\sklearn\linear_model\_base.py:133: FutureWarning: The default of 'normalize' will be set to False in version 1.2 and deprecated in version 1.4.
+If you wish to scale the data, use Pipeline with a StandardScaler in a preprocessing stage. To reproduce the previous behavior:
+
+from sklearn.pipeline import make_pipeline
+
+model = make_pipeline(StandardScaler(with_mean=False), LassoLars())
+
+If you wish to pass a sample_weight parameter, you need to pass it as a fit parameter to each step of the pipeline as follows:
+
+kwargs = {s[0] + '__sample_weight': sample_weight for s in model.steps}
+model.fit(X, y, **kwargs)
+
+Set parameter alpha to: original_alpha * np.sqrt(n_samples). 
+  warnings.warn(
+
+2022-10-07 10:45:02,598:WARNING:C:\Users\Kunal\anaconda3\lib\site-packages\sktime\performance_metrics\forecasting\_functions.py:1545: FutureWarning: In the percentage error metric functions the default argument symmetric=True is changing to symmetric=False in v0.12.0.
+  warn(
+
+2022-10-07 10:45:02,599:WARNING:C:\Users\Kunal\anaconda3\lib\site-packages\sktime\performance_metrics\forecasting\_functions.py:1545: FutureWarning: In the percentage error metric functions the default argument symmetric=True is changing to symmetric=False in v0.12.0.
+  warn(
+
+2022-10-07 10:45:02,612:WARNING:C:\Users\Kunal\anaconda3\lib\site-packages\sktime\performance_metrics\forecasting\_functions.py:1545: FutureWarning: In the percentage error metric functions the default argument symmetric=True is changing to symmetric=False in v0.12.0.
+  warn(
+
+2022-10-07 10:45:02,613:WARNING:C:\Users\Kunal\anaconda3\lib\site-packages\sktime\performance_metrics\forecasting\_functions.py:1545: FutureWarning: In the percentage error metric functions the default argument symmetric=True is changing to symmetric=False in v0.12.0.
+  warn(
+
+2022-10-07 10:45:02,620:WARNING:C:\Users\Kunal\anaconda3\lib\site-packages\sktime\performance_metrics\forecasting\_functions.py:1545: FutureWarning: In the percentage error metric functions the default argument symmetric=True is changing to symmetric=False in v0.12.0.
+  warn(
+
+2022-10-07 10:45:02,621:WARNING:C:\Users\Kunal\anaconda3\lib\site-packages\sktime\performance_metrics\forecasting\_functions.py:1545: FutureWarning: In the percentage error metric functions the default argument symmetric=True is changing to symmetric=False in v0.12.0.
+  warn(
+
+2022-10-07 10:45:02,623:INFO:Calculating mean and std
+2022-10-07 10:45:02,624:INFO:Creating metrics dataframe
+2022-10-07 10:45:02,628:INFO:Uploading results into container
+2022-10-07 10:45:02,628:INFO:Uploading model into container now
+2022-10-07 10:45:02,628:INFO:master_model_container: 17
+2022-10-07 10:45:02,629:INFO:display_container: 2
+2022-10-07 10:45:02,630:INFO:BaseCdsDtForecaster(regressor=LassoLars(random_state=2673), sp=7,
+                    window_length=7)
+2022-10-07 10:45:02,631:INFO:create_model() successfully completed......................................
+2022-10-07 10:45:02,736:INFO:SubProcess create_model() end ==================================
+2022-10-07 10:45:02,736:INFO:Creating metrics dataframe
+2022-10-07 10:45:02,744:INFO:Initializing Bayesian Ridge w/ Cond. Deseasonalize & Detrending
+2022-10-07 10:45:02,746:INFO:Total runtime is 0.38006730079650886 minutes
+2022-10-07 10:45:02,746:INFO:SubProcess create_model() called ==================================
+2022-10-07 10:45:02,748:INFO:Initializing create_model()
+2022-10-07 10:45:02,748:INFO:create_model(self=<pycaret.time_series.forecasting.oop.TSForecastingExperiment object at 0x00000183D7A92760>, estimator=br_cds_dt, fold=None, round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x00000183E1F1F0D0>, model_only=True, return_train_score=False, kwargs={})
+2022-10-07 10:45:02,750:INFO:Checking exceptions
+2022-10-07 10:45:02,752:INFO:Importing libraries
+2022-10-07 10:45:02,752:INFO:Copying training dataset
+2022-10-07 10:45:02,755:INFO:Defining folds
+2022-10-07 10:45:02,755:INFO:Declaring metric variables
+2022-10-07 10:45:02,757:INFO:Importing untrained model
+2022-10-07 10:45:02,757:INFO:Bayesian Ridge w/ Cond. Deseasonalize & Detrending Imported successfully
+2022-10-07 10:45:02,760:INFO:Starting cross validation
+2022-10-07 10:45:02,761:INFO:Cross validating with ExpandingWindowSplitter(fh=ForecastingHorizon([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18], dtype='int64', is_relative=True),
+            initial_window=None, step_length=18), n_jobs=-1
+2022-10-07 10:45:02,787:WARNING:C:\Users\Kunal\anaconda3\lib\site-packages\sktime\utils\seasonality.py:44: UserWarning: Did not perform seasonality test, as `y`` is too short for the given `sp`, returned: False
+  warn(
+
+2022-10-07 10:45:02,839:WARNING:C:\Users\Kunal\anaconda3\lib\site-packages\sktime\performance_metrics\forecasting\_functions.py:1545: FutureWarning: In the percentage error metric functions the default argument symmetric=True is changing to symmetric=False in v0.12.0.
+  warn(
+
+2022-10-07 10:45:02,840:WARNING:C:\Users\Kunal\anaconda3\lib\site-packages\sktime\performance_metrics\forecasting\_functions.py:1545: FutureWarning: In the percentage error metric functions the default argument symmetric=True is changing to symmetric=False in v0.12.0.
+  warn(
+
+2022-10-07 10:45:02,842:WARNING:C:\Users\Kunal\anaconda3\lib\site-packages\sktime\performance_metrics\forecasting\_functions.py:1545: FutureWarning: In the percentage error metric functions the default argument symmetric=True is changing to symmetric=False in v0.12.0.
+  warn(
+
+2022-10-07 10:45:02,842:WARNING:C:\Users\Kunal\anaconda3\lib\site-packages\sktime\performance_metrics\forecasting\_functions.py:1545: FutureWarning: In the percentage error metric functions the default argument symmetric=True is changing to symmetric=False in v0.12.0.
+  warn(
+
+2022-10-07 10:45:02,849:WARNING:C:\Users\Kunal\anaconda3\lib\site-packages\sktime\performance_metrics\forecasting\_functions.py:1545: FutureWarning: In the percentage error metric functions the default argument symmetric=True is changing to symmetric=False in v0.12.0.
+  warn(
+
+2022-10-07 10:45:02,849:WARNING:C:\Users\Kunal\anaconda3\lib\site-packages\sktime\performance_metrics\forecasting\_functions.py:1545: FutureWarning: In the percentage error metric functions the default argument symmetric=True is changing to symmetric=False in v0.12.0.
+  warn(
+
+2022-10-07 10:45:02,852:INFO:Calculating mean and std
+2022-10-07 10:45:02,853:INFO:Creating metrics dataframe
+2022-10-07 10:45:02,857:INFO:Uploading results into container
+2022-10-07 10:45:02,858:INFO:Uploading model into container now
+2022-10-07 10:45:02,858:INFO:master_model_container: 18
+2022-10-07 10:45:02,859:INFO:display_container: 2
+2022-10-07 10:45:02,860:INFO:BaseCdsDtForecaster(regressor=BayesianRidge(), sp=7, window_length=7)
+2022-10-07 10:45:02,861:INFO:create_model() successfully completed......................................
+2022-10-07 10:45:02,960:INFO:SubProcess create_model() end ==================================
+2022-10-07 10:45:02,961:INFO:Creating metrics dataframe
+2022-10-07 10:45:02,969:INFO:Initializing Huber w/ Cond. Deseasonalize & Detrending
+2022-10-07 10:45:02,969:INFO:Total runtime is 0.38379805882771817 minutes
+2022-10-07 10:45:02,970:INFO:SubProcess create_model() called ==================================
+2022-10-07 10:45:02,972:INFO:Initializing create_model()
+2022-10-07 10:45:02,973:INFO:create_model(self=<pycaret.time_series.forecasting.oop.TSForecastingExperiment object at 0x00000183D7A92760>, estimator=huber_cds_dt, fold=None, round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x00000183E1F1F0D0>, model_only=True, return_train_score=False, kwargs={})
+2022-10-07 10:45:02,974:INFO:Checking exceptions
+2022-10-07 10:45:02,975:INFO:Importing libraries
+2022-10-07 10:45:02,975:INFO:Copying training dataset
+2022-10-07 10:45:02,979:INFO:Defining folds
+2022-10-07 10:45:02,979:INFO:Declaring metric variables
+2022-10-07 10:45:02,980:INFO:Importing untrained model
+2022-10-07 10:45:02,982:INFO:Huber w/ Cond. Deseasonalize & Detrending Imported successfully
+2022-10-07 10:45:02,983:INFO:Starting cross validation
+2022-10-07 10:45:02,984:INFO:Cross validating with ExpandingWindowSplitter(fh=ForecastingHorizon([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18], dtype='int64', is_relative=True),
+            initial_window=None, step_length=18), n_jobs=-1
+2022-10-07 10:45:03,009:WARNING:C:\Users\Kunal\anaconda3\lib\site-packages\sktime\utils\seasonality.py:44: UserWarning: Did not perform seasonality test, as `y`` is too short for the given `sp`, returned: False
+  warn(
+
+2022-10-07 10:45:03,071:WARNING:C:\Users\Kunal\anaconda3\lib\site-packages\sklearn\linear_model\_huber.py:332: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+  self.n_iter_ = _check_optimize_result("lbfgs", opt_res, self.max_iter)
+
+2022-10-07 10:45:03,074:WARNING:C:\Users\Kunal\anaconda3\lib\site-packages\sktime\performance_metrics\forecasting\_functions.py:1545: FutureWarning: In the percentage error metric functions the default argument symmetric=True is changing to symmetric=False in v0.12.0.
+  warn(
+
+2022-10-07 10:45:03,074:WARNING:C:\Users\Kunal\anaconda3\lib\site-packages\sktime\performance_metrics\forecasting\_functions.py:1545: FutureWarning: In the percentage error metric functions the default argument symmetric=True is changing to symmetric=False in v0.12.0.
+  warn(
+
+2022-10-07 10:45:03,079:WARNING:C:\Users\Kunal\anaconda3\lib\site-packages\sklearn\linear_model\_huber.py:332: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+  self.n_iter_ = _check_optimize_result("lbfgs", opt_res, self.max_iter)
+
+2022-10-07 10:45:03,097:WARNING:C:\Users\Kunal\anaconda3\lib\site-packages\sktime\performance_metrics\forecasting\_functions.py:1545: FutureWarning: In the percentage error metric functions the default argument symmetric=True is changing to symmetric=False in v0.12.0.
+  warn(
+
+2022-10-07 10:45:03,098:WARNING:C:\Users\Kunal\anaconda3\lib\site-packages\sktime\performance_metrics\forecasting\_functions.py:1545: FutureWarning: In the percentage error metric functions the default argument symmetric=True is changing to symmetric=False in v0.12.0.
+  warn(
+
+2022-10-07 10:45:03,107:WARNING:C:\Users\Kunal\anaconda3\lib\site-packages\sktime\performance_metrics\forecasting\_functions.py:1545: FutureWarning: In the percentage error metric functions the default argument symmetric=True is changing to symmetric=False in v0.12.0.
+  warn(
+
+2022-10-07 10:45:03,107:WARNING:C:\Users\Kunal\anaconda3\lib\site-packages\sktime\performance_metrics\forecasting\_functions.py:1545: FutureWarning: In the percentage error metric functions the default argument symmetric=True is changing to symmetric=False in v0.12.0.
+  warn(
+
+2022-10-07 10:45:03,109:INFO:Calculating mean and std
+2022-10-07 10:45:03,110:INFO:Creating metrics dataframe
+2022-10-07 10:45:03,113:INFO:Uploading results into container
+2022-10-07 10:45:03,113:INFO:Uploading model into container now
+2022-10-07 10:45:03,114:INFO:master_model_container: 19
+2022-10-07 10:45:03,115:INFO:display_container: 2
+2022-10-07 10:45:03,116:INFO:BaseCdsDtForecaster(regressor=HuberRegressor(), sp=7, window_length=7)
+2022-10-07 10:45:03,116:INFO:create_model() successfully completed......................................
+2022-10-07 10:45:03,222:INFO:SubProcess create_model() end ==================================
+2022-10-07 10:45:03,222:INFO:Creating metrics dataframe
+2022-10-07 10:45:03,230:INFO:Initializing Passive Aggressive w/ Cond. Deseasonalize & Detrending
+2022-10-07 10:45:03,230:INFO:Total runtime is 0.38813423713048306 minutes
+2022-10-07 10:45:03,231:INFO:SubProcess create_model() called ==================================
+2022-10-07 10:45:03,232:INFO:Initializing create_model()
+2022-10-07 10:45:03,233:INFO:create_model(self=<pycaret.time_series.forecasting.oop.TSForecastingExperiment object at 0x00000183D7A92760>, estimator=par_cds_dt, fold=None, round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x00000183E1F1F0D0>, model_only=True, return_train_score=False, kwargs={})
+2022-10-07 10:45:03,234:INFO:Checking exceptions
+2022-10-07 10:45:03,236:INFO:Importing libraries
+2022-10-07 10:45:03,236:INFO:Copying training dataset
+2022-10-07 10:45:03,240:INFO:Defining folds
+2022-10-07 10:45:03,240:INFO:Declaring metric variables
+2022-10-07 10:45:03,241:INFO:Importing untrained model
+2022-10-07 10:45:03,242:INFO:Passive Aggressive w/ Cond. Deseasonalize & Detrending Imported successfully
+2022-10-07 10:45:03,243:INFO:Starting cross validation
+2022-10-07 10:45:03,244:INFO:Cross validating with ExpandingWindowSplitter(fh=ForecastingHorizon([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18], dtype='int64', is_relative=True),
+            initial_window=None, step_length=18), n_jobs=-1
+2022-10-07 10:45:03,272:WARNING:C:\Users\Kunal\anaconda3\lib\site-packages\sktime\utils\seasonality.py:44: UserWarning: Did not perform seasonality test, as `y`` is too short for the given `sp`, returned: False
+  warn(
+
+2022-10-07 10:45:03,316:WARNING:C:\Users\Kunal\anaconda3\lib\site-packages\sktime\performance_metrics\forecasting\_functions.py:1545: FutureWarning: In the percentage error metric functions the default argument symmetric=True is changing to symmetric=False in v0.12.0.
+  warn(
+
+2022-10-07 10:45:03,316:WARNING:C:\Users\Kunal\anaconda3\lib\site-packages\sktime\performance_metrics\forecasting\_functions.py:1545: FutureWarning: In the percentage error metric functions the default argument symmetric=True is changing to symmetric=False in v0.12.0.
+  warn(
+
+2022-10-07 10:45:03,338:WARNING:C:\Users\Kunal\anaconda3\lib\site-packages\sktime\performance_metrics\forecasting\_functions.py:1545: FutureWarning: In the percentage error metric functions the default argument symmetric=True is changing to symmetric=False in v0.12.0.
+  warn(
+
+2022-10-07 10:45:03,339:WARNING:C:\Users\Kunal\anaconda3\lib\site-packages\sktime\performance_metrics\forecasting\_functions.py:1545: FutureWarning: In the percentage error metric functions the default argument symmetric=True is changing to symmetric=False in v0.12.0.
+  warn(
+
+2022-10-07 10:45:03,347:WARNING:C:\Users\Kunal\anaconda3\lib\site-packages\sktime\performance_metrics\forecasting\_functions.py:1545: FutureWarning: In the percentage error metric functions the default argument symmetric=True is changing to symmetric=False in v0.12.0.
+  warn(
+
+2022-10-07 10:45:03,347:WARNING:C:\Users\Kunal\anaconda3\lib\site-packages\sktime\performance_metrics\forecasting\_functions.py:1545: FutureWarning: In the percentage error metric functions the default argument symmetric=True is changing to symmetric=False in v0.12.0.
+  warn(
+
+2022-10-07 10:45:03,349:INFO:Calculating mean and std
+2022-10-07 10:45:03,350:INFO:Creating metrics dataframe
+2022-10-07 10:45:03,353:INFO:Uploading results into container
+2022-10-07 10:45:03,355:INFO:Uploading model into container now
+2022-10-07 10:45:03,355:INFO:master_model_container: 20
+2022-10-07 10:45:03,355:INFO:display_container: 2
+2022-10-07 10:45:03,356:INFO:BaseCdsDtForecaster(regressor=PassiveAggressiveRegressor(random_state=2673),
+                    sp=7, window_length=7)
+2022-10-07 10:45:03,357:INFO:create_model() successfully completed......................................
+2022-10-07 10:45:03,458:INFO:SubProcess create_model() end ==================================
+2022-10-07 10:45:03,458:INFO:Creating metrics dataframe
+2022-10-07 10:45:03,465:INFO:Initializing Orthogonal Matching Pursuit w/ Cond. Deseasonalize & Detrending
+2022-10-07 10:45:03,466:INFO:Total runtime is 0.3920812129974366 minutes
+2022-10-07 10:45:03,467:INFO:SubProcess create_model() called ==================================
+2022-10-07 10:45:03,468:INFO:Initializing create_model()
+2022-10-07 10:45:03,469:INFO:create_model(self=<pycaret.time_series.forecasting.oop.TSForecastingExperiment object at 0x00000183D7A92760>, estimator=omp_cds_dt, fold=None, round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x00000183E1F1F0D0>, model_only=True, return_train_score=False, kwargs={})
+2022-10-07 10:45:03,470:INFO:Checking exceptions
+2022-10-07 10:45:03,472:INFO:Importing libraries
+2022-10-07 10:45:03,473:INFO:Copying training dataset
+2022-10-07 10:45:03,476:INFO:Defining folds
+2022-10-07 10:45:03,476:INFO:Declaring metric variables
+2022-10-07 10:45:03,477:INFO:Importing untrained model
+2022-10-07 10:45:03,479:INFO:Orthogonal Matching Pursuit w/ Cond. Deseasonalize & Detrending Imported successfully
+2022-10-07 10:45:03,480:INFO:Starting cross validation
+2022-10-07 10:45:03,481:INFO:Cross validating with ExpandingWindowSplitter(fh=ForecastingHorizon([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18], dtype='int64', is_relative=True),
+            initial_window=None, step_length=18), n_jobs=-1
+2022-10-07 10:45:03,507:WARNING:C:\Users\Kunal\anaconda3\lib\site-packages\sktime\utils\seasonality.py:44: UserWarning: Did not perform seasonality test, as `y`` is too short for the given `sp`, returned: False
+  warn(
+
+2022-10-07 10:45:03,529:WARNING:C:\Users\Kunal\anaconda3\lib\site-packages\sklearn\linear_model\_base.py:133: FutureWarning: The default of 'normalize' will be set to False in version 1.2 and deprecated in version 1.4.
+If you wish to scale the data, use Pipeline with a StandardScaler in a preprocessing stage. To reproduce the previous behavior:
+
+from sklearn.pipeline import make_pipeline
+
+model = make_pipeline(StandardScaler(with_mean=False), OrthogonalMatchingPursuit())
+
+If you wish to pass a sample_weight parameter, you need to pass it as a fit parameter to each step of the pipeline as follows:
+
+kwargs = {s[0] + '__sample_weight': sample_weight for s in model.steps}
+model.fit(X, y, **kwargs)
+
+
+  warnings.warn(
+
+2022-10-07 10:45:03,536:WARNING:C:\Users\Kunal\anaconda3\lib\site-packages\sklearn\linear_model\_base.py:133: FutureWarning: The default of 'normalize' will be set to False in version 1.2 and deprecated in version 1.4.
+If you wish to scale the data, use Pipeline with a StandardScaler in a preprocessing stage. To reproduce the previous behavior:
+
+from sklearn.pipeline import make_pipeline
+
+model = make_pipeline(StandardScaler(with_mean=False), OrthogonalMatchingPursuit())
+
+If you wish to pass a sample_weight parameter, you need to pass it as a fit parameter to each step of the pipeline as follows:
+
+kwargs = {s[0] + '__sample_weight': sample_weight for s in model.steps}
+model.fit(X, y, **kwargs)
+
+
+  warnings.warn(
+
+2022-10-07 10:45:03,566:WARNING:C:\Users\Kunal\anaconda3\lib\site-packages\sktime\performance_metrics\forecasting\_functions.py:1545: FutureWarning: In the percentage error metric functions the default argument symmetric=True is changing to symmetric=False in v0.12.0.
+  warn(
+
+2022-10-07 10:45:03,566:WARNING:C:\Users\Kunal\anaconda3\lib\site-packages\sktime\performance_metrics\forecasting\_functions.py:1545: FutureWarning: In the percentage error metric functions the default argument symmetric=True is changing to symmetric=False in v0.12.0.
+  warn(
+
+2022-10-07 10:45:03,567:WARNING:C:\Users\Kunal\anaconda3\lib\site-packages\sklearn\linear_model\_base.py:133: FutureWarning: The default of 'normalize' will be set to False in version 1.2 and deprecated in version 1.4.
+If you wish to scale the data, use Pipeline with a StandardScaler in a preprocessing stage. To reproduce the previous behavior:
+
+from sklearn.pipeline import make_pipeline
+
+model = make_pipeline(StandardScaler(with_mean=False), OrthogonalMatchingPursuit())
+
+If you wish to pass a sample_weight parameter, you need to pass it as a fit parameter to each step of the pipeline as follows:
+
+kwargs = {s[0] + '__sample_weight': sample_weight for s in model.steps}
+model.fit(X, y, **kwargs)
+
+
+  warnings.warn(
+
+2022-10-07 10:45:03,571:WARNING:C:\Users\Kunal\anaconda3\lib\site-packages\sktime\performance_metrics\forecasting\_functions.py:1545: FutureWarning: In the percentage error metric functions the default argument symmetric=True is changing to symmetric=False in v0.12.0.
+  warn(
+
+2022-10-07 10:45:03,571:WARNING:C:\Users\Kunal\anaconda3\lib\site-packages\sktime\performance_metrics\forecasting\_functions.py:1545: FutureWarning: In the percentage error metric functions the default argument symmetric=True is changing to symmetric=False in v0.12.0.
+  warn(
+
+2022-10-07 10:45:03,589:WARNING:C:\Users\Kunal\anaconda3\lib\site-packages\sktime\performance_metrics\forecasting\_functions.py:1545: FutureWarning: In the percentage error metric functions the default argument symmetric=True is changing to symmetric=False in v0.12.0.
+  warn(
+
+2022-10-07 10:45:03,590:WARNING:C:\Users\Kunal\anaconda3\lib\site-packages\sktime\performance_metrics\forecasting\_functions.py:1545: FutureWarning: In the percentage error metric functions the default argument symmetric=True is changing to symmetric=False in v0.12.0.
+  warn(
+
+2022-10-07 10:45:03,591:INFO:Calculating mean and std
+2022-10-07 10:45:03,593:INFO:Creating metrics dataframe
+2022-10-07 10:45:03,596:INFO:Uploading results into container
+2022-10-07 10:45:03,597:INFO:Uploading model into container now
+2022-10-07 10:45:03,598:INFO:master_model_container: 21
+2022-10-07 10:45:03,599:INFO:display_container: 2
+2022-10-07 10:45:03,600:INFO:BaseCdsDtForecaster(regressor=OrthogonalMatchingPursuit(), sp=7,
+                    window_length=7)
+2022-10-07 10:45:03,600:INFO:create_model() successfully completed......................................
+2022-10-07 10:45:03,716:INFO:SubProcess create_model() end ==================================
+2022-10-07 10:45:03,716:INFO:Creating metrics dataframe
+2022-10-07 10:45:03,725:INFO:Initializing K Neighbors w/ Cond. Deseasonalize & Detrending
+2022-10-07 10:45:03,726:INFO:Total runtime is 0.39641328255335495 minutes
+2022-10-07 10:45:03,727:INFO:SubProcess create_model() called ==================================
+2022-10-07 10:45:03,728:INFO:Initializing create_model()
+2022-10-07 10:45:03,728:INFO:create_model(self=<pycaret.time_series.forecasting.oop.TSForecastingExperiment object at 0x00000183D7A92760>, estimator=knn_cds_dt, fold=None, round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x00000183E1F1F0D0>, model_only=True, return_train_score=False, kwargs={})
+2022-10-07 10:45:03,730:INFO:Checking exceptions
+2022-10-07 10:45:03,731:INFO:Importing libraries
+2022-10-07 10:45:03,731:INFO:Copying training dataset
+2022-10-07 10:45:03,736:INFO:Defining folds
+2022-10-07 10:45:03,736:INFO:Declaring metric variables
+2022-10-07 10:45:03,736:INFO:Importing untrained model
+2022-10-07 10:45:03,737:INFO:K Neighbors w/ Cond. Deseasonalize & Detrending Imported successfully
+2022-10-07 10:45:03,739:INFO:Starting cross validation
+2022-10-07 10:45:03,740:INFO:Cross validating with ExpandingWindowSplitter(fh=ForecastingHorizon([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18], dtype='int64', is_relative=True),
+            initial_window=None, step_length=18), n_jobs=-1
+2022-10-07 10:45:03,765:WARNING:C:\Users\Kunal\anaconda3\lib\site-packages\sktime\utils\seasonality.py:44: UserWarning: Did not perform seasonality test, as `y`` is too short for the given `sp`, returned: False
+  warn(
+
+2022-10-07 10:45:03,906:WARNING:C:\Users\Kunal\anaconda3\lib\site-packages\sktime\performance_metrics\forecasting\_functions.py:1545: FutureWarning: In the percentage error metric functions the default argument symmetric=True is changing to symmetric=False in v0.12.0.
+  warn(
+
+2022-10-07 10:45:03,906:WARNING:C:\Users\Kunal\anaconda3\lib\site-packages\sktime\performance_metrics\forecasting\_functions.py:1545: FutureWarning: In the percentage error metric functions the default argument symmetric=True is changing to symmetric=False in v0.12.0.
+  warn(
+
+2022-10-07 10:45:03,913:WARNING:C:\Users\Kunal\anaconda3\lib\site-packages\sktime\performance_metrics\forecasting\_functions.py:1545: FutureWarning: In the percentage error metric functions the default argument symmetric=True is changing to symmetric=False in v0.12.0.
+  warn(
+
+2022-10-07 10:45:03,914:WARNING:C:\Users\Kunal\anaconda3\lib\site-packages\sktime\performance_metrics\forecasting\_functions.py:1545: FutureWarning: In the percentage error metric functions the default argument symmetric=True is changing to symmetric=False in v0.12.0.
+  warn(
+
+2022-10-07 10:45:04,841:WARNING:C:\Users\Kunal\anaconda3\lib\site-packages\sktime\performance_metrics\forecasting\_functions.py:1545: FutureWarning: In the percentage error metric functions the default argument symmetric=True is changing to symmetric=False in v0.12.0.
+  warn(
+
+2022-10-07 10:45:04,842:WARNING:C:\Users\Kunal\anaconda3\lib\site-packages\sktime\performance_metrics\forecasting\_functions.py:1545: FutureWarning: In the percentage error metric functions the default argument symmetric=True is changing to symmetric=False in v0.12.0.
+  warn(
+
+2022-10-07 10:45:04,844:INFO:Calculating mean and std
+2022-10-07 10:45:04,845:INFO:Creating metrics dataframe
+2022-10-07 10:45:04,849:INFO:Uploading results into container
+2022-10-07 10:45:04,849:INFO:Uploading model into container now
+2022-10-07 10:45:04,850:INFO:master_model_container: 22
+2022-10-07 10:45:04,850:INFO:display_container: 2
+2022-10-07 10:45:04,851:INFO:BaseCdsDtForecaster(regressor=KNeighborsRegressor(n_jobs=-1), sp=7,
+                    window_length=7)
+2022-10-07 10:45:04,852:INFO:create_model() successfully completed......................................
+2022-10-07 10:45:04,953:INFO:SubProcess create_model() end ==================================
+2022-10-07 10:45:04,953:INFO:Creating metrics dataframe
+2022-10-07 10:45:04,962:INFO:Initializing Decision Tree w/ Cond. Deseasonalize & Detrending
+2022-10-07 10:45:04,962:INFO:Total runtime is 0.4170019547144572 minutes
+2022-10-07 10:45:04,963:INFO:SubProcess create_model() called ==================================
+2022-10-07 10:45:04,964:INFO:Initializing create_model()
+2022-10-07 10:45:04,964:INFO:create_model(self=<pycaret.time_series.forecasting.oop.TSForecastingExperiment object at 0x00000183D7A92760>, estimator=dt_cds_dt, fold=None, round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x00000183E1F1F0D0>, model_only=True, return_train_score=False, kwargs={})
+2022-10-07 10:45:04,965:INFO:Checking exceptions
+2022-10-07 10:45:04,968:INFO:Importing libraries
+2022-10-07 10:45:04,968:INFO:Copying training dataset
+2022-10-07 10:45:04,972:INFO:Defining folds
+2022-10-07 10:45:04,973:INFO:Declaring metric variables
+2022-10-07 10:45:04,973:INFO:Importing untrained model
+2022-10-07 10:45:04,975:INFO:Decision Tree w/ Cond. Deseasonalize & Detrending Imported successfully
+2022-10-07 10:45:04,977:INFO:Starting cross validation
+2022-10-07 10:45:04,977:INFO:Cross validating with ExpandingWindowSplitter(fh=ForecastingHorizon([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18], dtype='int64', is_relative=True),
+            initial_window=None, step_length=18), n_jobs=-1
+2022-10-07 10:45:05,003:WARNING:C:\Users\Kunal\anaconda3\lib\site-packages\sktime\utils\seasonality.py:44: UserWarning: Did not perform seasonality test, as `y`` is too short for the given `sp`, returned: False
+  warn(
+
+2022-10-07 10:45:05,050:WARNING:C:\Users\Kunal\anaconda3\lib\site-packages\sktime\performance_metrics\forecasting\_functions.py:1545: FutureWarning: In the percentage error metric functions the default argument symmetric=True is changing to symmetric=False in v0.12.0.
+  warn(
+
+2022-10-07 10:45:05,051:WARNING:C:\Users\Kunal\anaconda3\lib\site-packages\sktime\performance_metrics\forecasting\_functions.py:1545: FutureWarning: In the percentage error metric functions the default argument symmetric=True is changing to symmetric=False in v0.12.0.
+  warn(
+
+2022-10-07 10:45:05,057:WARNING:C:\Users\Kunal\anaconda3\lib\site-packages\sktime\performance_metrics\forecasting\_functions.py:1545: FutureWarning: In the percentage error metric functions the default argument symmetric=True is changing to symmetric=False in v0.12.0.
+  warn(
+
+2022-10-07 10:45:05,057:WARNING:C:\Users\Kunal\anaconda3\lib\site-packages\sktime\performance_metrics\forecasting\_functions.py:1545: FutureWarning: In the percentage error metric functions the default argument symmetric=True is changing to symmetric=False in v0.12.0.
+  warn(
+
+2022-10-07 10:45:05,067:WARNING:C:\Users\Kunal\anaconda3\lib\site-packages\sktime\performance_metrics\forecasting\_functions.py:1545: FutureWarning: In the percentage error metric functions the default argument symmetric=True is changing to symmetric=False in v0.12.0.
+  warn(
+
+2022-10-07 10:45:05,067:WARNING:C:\Users\Kunal\anaconda3\lib\site-packages\sktime\performance_metrics\forecasting\_functions.py:1545: FutureWarning: In the percentage error metric functions the default argument symmetric=True is changing to symmetric=False in v0.12.0.
+  warn(
+
+2022-10-07 10:45:05,069:INFO:Calculating mean and std
+2022-10-07 10:45:05,070:INFO:Creating metrics dataframe
+2022-10-07 10:45:05,075:INFO:Uploading results into container
+2022-10-07 10:45:05,075:INFO:Uploading model into container now
+2022-10-07 10:45:05,075:INFO:master_model_container: 23
+2022-10-07 10:45:05,077:INFO:display_container: 2
+2022-10-07 10:45:05,077:INFO:BaseCdsDtForecaster(regressor=DecisionTreeRegressor(random_state=2673), sp=7,
+                    window_length=7)
+2022-10-07 10:45:05,078:INFO:create_model() successfully completed......................................
+2022-10-07 10:45:05,179:INFO:SubProcess create_model() end ==================================
+2022-10-07 10:45:05,180:INFO:Creating metrics dataframe
+2022-10-07 10:45:05,188:INFO:Initializing Random Forest w/ Cond. Deseasonalize & Detrending
+2022-10-07 10:45:05,189:INFO:Total runtime is 0.42078313430150355 minutes
+2022-10-07 10:45:05,189:INFO:SubProcess create_model() called ==================================
+2022-10-07 10:45:05,190:INFO:Initializing create_model()
+2022-10-07 10:45:05,191:INFO:create_model(self=<pycaret.time_series.forecasting.oop.TSForecastingExperiment object at 0x00000183D7A92760>, estimator=rf_cds_dt, fold=None, round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x00000183E1F1F0D0>, model_only=True, return_train_score=False, kwargs={})
+2022-10-07 10:45:05,192:INFO:Checking exceptions
+2022-10-07 10:45:05,194:INFO:Importing libraries
+2022-10-07 10:45:05,194:INFO:Copying training dataset
+2022-10-07 10:45:05,198:INFO:Defining folds
+2022-10-07 10:45:05,198:INFO:Declaring metric variables
+2022-10-07 10:45:05,200:INFO:Importing untrained model
+2022-10-07 10:45:05,200:INFO:Random Forest w/ Cond. Deseasonalize & Detrending Imported successfully
+2022-10-07 10:45:05,203:INFO:Starting cross validation
+2022-10-07 10:45:05,204:INFO:Cross validating with ExpandingWindowSplitter(fh=ForecastingHorizon([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18], dtype='int64', is_relative=True),
+            initial_window=None, step_length=18), n_jobs=-1
+2022-10-07 10:45:05,232:WARNING:C:\Users\Kunal\anaconda3\lib\site-packages\sktime\utils\seasonality.py:44: UserWarning: Did not perform seasonality test, as `y`` is too short for the given `sp`, returned: False
+  warn(
+
+2022-10-07 10:45:05,680:WARNING:C:\Users\Kunal\anaconda3\lib\site-packages\sktime\performance_metrics\forecasting\_functions.py:1545: FutureWarning: In the percentage error metric functions the default argument symmetric=True is changing to symmetric=False in v0.12.0.
+  warn(
+
+2022-10-07 10:45:05,681:WARNING:C:\Users\Kunal\anaconda3\lib\site-packages\sktime\performance_metrics\forecasting\_functions.py:1545: FutureWarning: In the percentage error metric functions the default argument symmetric=True is changing to symmetric=False in v0.12.0.
+  warn(
+
+2022-10-07 10:45:05,688:WARNING:C:\Users\Kunal\anaconda3\lib\site-packages\sktime\performance_metrics\forecasting\_functions.py:1545: FutureWarning: In the percentage error metric functions the default argument symmetric=True is changing to symmetric=False in v0.12.0.
+  warn(
+
+2022-10-07 10:45:05,689:WARNING:C:\Users\Kunal\anaconda3\lib\site-packages\sktime\performance_metrics\forecasting\_functions.py:1545: FutureWarning: In the percentage error metric functions the default argument symmetric=True is changing to symmetric=False in v0.12.0.
+  warn(
+
+2022-10-07 10:45:05,689:WARNING:C:\Users\Kunal\anaconda3\lib\site-packages\sktime\performance_metrics\forecasting\_functions.py:1545: FutureWarning: In the percentage error metric functions the default argument symmetric=True is changing to symmetric=False in v0.12.0.
+  warn(
+
+2022-10-07 10:45:05,691:INFO:Calculating mean and std
+2022-10-07 10:45:05,692:INFO:Creating metrics dataframe
+2022-10-07 10:45:05,697:INFO:Uploading results into container
+2022-10-07 10:45:05,697:INFO:Uploading model into container now
+2022-10-07 10:45:05,697:INFO:master_model_container: 24
+2022-10-07 10:45:05,698:INFO:display_container: 2
+2022-10-07 10:45:05,700:INFO:BaseCdsDtForecaster(regressor=RandomForestRegressor(n_jobs=-1,
+                                                    random_state=2673),
+                    sp=7, window_length=7)
+2022-10-07 10:45:05,700:INFO:create_model() successfully completed......................................
+2022-10-07 10:45:05,796:INFO:SubProcess create_model() end ==================================
+2022-10-07 10:45:05,797:INFO:Creating metrics dataframe
+2022-10-07 10:45:05,803:INFO:Initializing Extra Trees w/ Cond. Deseasonalize & Detrending
+2022-10-07 10:45:05,803:INFO:Total runtime is 0.43101812601089484 minutes
+2022-10-07 10:45:05,804:INFO:SubProcess create_model() called ==================================
+2022-10-07 10:45:05,805:INFO:Initializing create_model()
+2022-10-07 10:45:05,805:INFO:create_model(self=<pycaret.time_series.forecasting.oop.TSForecastingExperiment object at 0x00000183D7A92760>, estimator=et_cds_dt, fold=None, round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x00000183E1F1F0D0>, model_only=True, return_train_score=False, kwargs={})
+2022-10-07 10:45:05,806:INFO:Checking exceptions
+2022-10-07 10:45:05,808:INFO:Importing libraries
+2022-10-07 10:45:05,808:INFO:Copying training dataset
+2022-10-07 10:45:05,810:INFO:Defining folds
+2022-10-07 10:45:05,811:INFO:Declaring metric variables
+2022-10-07 10:45:05,811:INFO:Importing untrained model
+2022-10-07 10:45:05,813:INFO:Extra Trees w/ Cond. Deseasonalize & Detrending Imported successfully
+2022-10-07 10:45:05,815:INFO:Starting cross validation
+2022-10-07 10:45:05,815:INFO:Cross validating with ExpandingWindowSplitter(fh=ForecastingHorizon([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18], dtype='int64', is_relative=True),
+            initial_window=None, step_length=18), n_jobs=-1
+2022-10-07 10:45:05,850:WARNING:C:\Users\Kunal\anaconda3\lib\site-packages\sktime\utils\seasonality.py:44: UserWarning: Did not perform seasonality test, as `y`` is too short for the given `sp`, returned: False
+  warn(
+
+2022-10-07 10:45:06,291:WARNING:C:\Users\Kunal\anaconda3\lib\site-packages\sktime\performance_metrics\forecasting\_functions.py:1545: FutureWarning: In the percentage error metric functions the default argument symmetric=True is changing to symmetric=False in v0.12.0.
+  warn(
+
+2022-10-07 10:45:06,291:WARNING:C:\Users\Kunal\anaconda3\lib\site-packages\sktime\performance_metrics\forecasting\_functions.py:1545: FutureWarning: In the percentage error metric functions the default argument symmetric=True is changing to symmetric=False in v0.12.0.
+  warn(
+
+2022-10-07 10:45:06,305:WARNING:C:\Users\Kunal\anaconda3\lib\site-packages\sktime\performance_metrics\forecasting\_functions.py:1545: FutureWarning: In the percentage error metric functions the default argument symmetric=True is changing to symmetric=False in v0.12.0.
+  warn(
+
+2022-10-07 10:45:06,306:WARNING:C:\Users\Kunal\anaconda3\lib\site-packages\sktime\performance_metrics\forecasting\_functions.py:1545: FutureWarning: In the percentage error metric functions the default argument symmetric=True is changing to symmetric=False in v0.12.0.
+  warn(
+
+2022-10-07 10:45:06,327:WARNING:C:\Users\Kunal\anaconda3\lib\site-packages\sktime\performance_metrics\forecasting\_functions.py:1545: FutureWarning: In the percentage error metric functions the default argument symmetric=True is changing to symmetric=False in v0.12.0.
+  warn(
+
+2022-10-07 10:45:06,328:WARNING:C:\Users\Kunal\anaconda3\lib\site-packages\sktime\performance_metrics\forecasting\_functions.py:1545: FutureWarning: In the percentage error metric functions the default argument symmetric=True is changing to symmetric=False in v0.12.0.
+  warn(
+
+2022-10-07 10:45:06,330:INFO:Calculating mean and std
+2022-10-07 10:45:06,330:INFO:Creating metrics dataframe
+2022-10-07 10:45:06,335:INFO:Uploading results into container
+2022-10-07 10:45:06,335:INFO:Uploading model into container now
+2022-10-07 10:45:06,336:INFO:master_model_container: 25
+2022-10-07 10:45:06,337:INFO:display_container: 2
+2022-10-07 10:45:06,338:INFO:BaseCdsDtForecaster(regressor=ExtraTreesRegressor(n_jobs=-1, random_state=2673),
+                    sp=7, window_length=7)
+2022-10-07 10:45:06,339:INFO:create_model() successfully completed......................................
+2022-10-07 10:45:06,446:INFO:SubProcess create_model() end ==================================
+2022-10-07 10:45:06,446:INFO:Creating metrics dataframe
+2022-10-07 10:45:06,455:INFO:Initializing Gradient Boosting w/ Cond. Deseasonalize & Detrending
+2022-10-07 10:45:06,456:INFO:Total runtime is 0.44190358320872 minutes
+2022-10-07 10:45:06,456:INFO:SubProcess create_model() called ==================================
+2022-10-07 10:45:06,458:INFO:Initializing create_model()
+2022-10-07 10:45:06,458:INFO:create_model(self=<pycaret.time_series.forecasting.oop.TSForecastingExperiment object at 0x00000183D7A92760>, estimator=gbr_cds_dt, fold=None, round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x00000183E1F1F0D0>, model_only=True, return_train_score=False, kwargs={})
+2022-10-07 10:45:06,459:INFO:Checking exceptions
+2022-10-07 10:45:06,461:INFO:Importing libraries
+2022-10-07 10:45:06,461:INFO:Copying training dataset
+2022-10-07 10:45:06,464:INFO:Defining folds
+2022-10-07 10:45:06,464:INFO:Declaring metric variables
+2022-10-07 10:45:06,465:INFO:Importing untrained model
+2022-10-07 10:45:06,467:INFO:Gradient Boosting w/ Cond. Deseasonalize & Detrending Imported successfully
+2022-10-07 10:45:06,469:INFO:Starting cross validation
+2022-10-07 10:45:06,470:INFO:Cross validating with ExpandingWindowSplitter(fh=ForecastingHorizon([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18], dtype='int64', is_relative=True),
+            initial_window=None, step_length=18), n_jobs=-1
+2022-10-07 10:45:06,502:WARNING:C:\Users\Kunal\anaconda3\lib\site-packages\sktime\utils\seasonality.py:44: UserWarning: Did not perform seasonality test, as `y`` is too short for the given `sp`, returned: False
+  warn(
+
+2022-10-07 10:45:06,583:WARNING:C:\Users\Kunal\anaconda3\lib\site-packages\sktime\performance_metrics\forecasting\_functions.py:1545: FutureWarning: In the percentage error metric functions the default argument symmetric=True is changing to symmetric=False in v0.12.0.
+  warn(
+
+2022-10-07 10:45:06,584:WARNING:C:\Users\Kunal\anaconda3\lib\site-packages\sktime\performance_metrics\forecasting\_functions.py:1545: FutureWarning: In the percentage error metric functions the default argument symmetric=True is changing to symmetric=False in v0.12.0.
+  warn(
+
+2022-10-07 10:45:06,588:WARNING:C:\Users\Kunal\anaconda3\lib\site-packages\sktime\performance_metrics\forecasting\_functions.py:1545: FutureWarning: In the percentage error metric functions the default argument symmetric=True is changing to symmetric=False in v0.12.0.
+  warn(
+
+2022-10-07 10:45:06,589:WARNING:C:\Users\Kunal\anaconda3\lib\site-packages\sktime\performance_metrics\forecasting\_functions.py:1545: FutureWarning: In the percentage error metric functions the default argument symmetric=True is changing to symmetric=False in v0.12.0.
+  warn(
+
+2022-10-07 10:45:06,596:WARNING:C:\Users\Kunal\anaconda3\lib\site-packages\sktime\performance_metrics\forecasting\_functions.py:1545: FutureWarning: In the percentage error metric functions the default argument symmetric=True is changing to symmetric=False in v0.12.0.
+  warn(
+
+2022-10-07 10:45:06,597:WARNING:C:\Users\Kunal\anaconda3\lib\site-packages\sktime\performance_metrics\forecasting\_functions.py:1545: FutureWarning: In the percentage error metric functions the default argument symmetric=True is changing to symmetric=False in v0.12.0.
+  warn(
+
+2022-10-07 10:45:06,599:INFO:Calculating mean and std
+2022-10-07 10:45:06,600:INFO:Creating metrics dataframe
+2022-10-07 10:45:06,606:INFO:Uploading results into container
+2022-10-07 10:45:06,606:INFO:Uploading model into container now
+2022-10-07 10:45:06,607:INFO:master_model_container: 26
+2022-10-07 10:45:06,608:INFO:display_container: 2
+2022-10-07 10:45:06,608:INFO:BaseCdsDtForecaster(regressor=GradientBoostingRegressor(random_state=2673),
+                    sp=7, window_length=7)
+2022-10-07 10:45:06,609:INFO:create_model() successfully completed......................................
+2022-10-07 10:45:06,708:INFO:SubProcess create_model() end ==================================
+2022-10-07 10:45:06,708:INFO:Creating metrics dataframe
+2022-10-07 10:45:06,717:INFO:Initializing AdaBoost w/ Cond. Deseasonalize & Detrending
+2022-10-07 10:45:06,717:INFO:Total runtime is 0.4462616682052613 minutes
+2022-10-07 10:45:06,718:INFO:SubProcess create_model() called ==================================
+2022-10-07 10:45:06,720:INFO:Initializing create_model()
+2022-10-07 10:45:06,720:INFO:create_model(self=<pycaret.time_series.forecasting.oop.TSForecastingExperiment object at 0x00000183D7A92760>, estimator=ada_cds_dt, fold=None, round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x00000183E1F1F0D0>, model_only=True, return_train_score=False, kwargs={})
+2022-10-07 10:45:06,721:INFO:Checking exceptions
+2022-10-07 10:45:06,722:INFO:Importing libraries
+2022-10-07 10:45:06,723:INFO:Copying training dataset
+2022-10-07 10:45:06,726:INFO:Defining folds
+2022-10-07 10:45:06,726:INFO:Declaring metric variables
+2022-10-07 10:45:06,726:INFO:Importing untrained model
+2022-10-07 10:45:06,728:INFO:AdaBoost w/ Cond. Deseasonalize & Detrending Imported successfully
+2022-10-07 10:45:06,730:INFO:Starting cross validation
+2022-10-07 10:45:06,731:INFO:Cross validating with ExpandingWindowSplitter(fh=ForecastingHorizon([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18], dtype='int64', is_relative=True),
+            initial_window=None, step_length=18), n_jobs=-1
+2022-10-07 10:45:06,758:WARNING:C:\Users\Kunal\anaconda3\lib\site-packages\sktime\utils\seasonality.py:44: UserWarning: Did not perform seasonality test, as `y`` is too short for the given `sp`, returned: False
+  warn(
+
+2022-10-07 10:45:06,912:WARNING:C:\Users\Kunal\anaconda3\lib\site-packages\sktime\performance_metrics\forecasting\_functions.py:1545: FutureWarning: In the percentage error metric functions the default argument symmetric=True is changing to symmetric=False in v0.12.0.
+  warn(
+
+2022-10-07 10:45:06,913:WARNING:C:\Users\Kunal\anaconda3\lib\site-packages\sktime\performance_metrics\forecasting\_functions.py:1545: FutureWarning: In the percentage error metric functions the default argument symmetric=True is changing to symmetric=False in v0.12.0.
+  warn(
+
+2022-10-07 10:45:06,913:WARNING:C:\Users\Kunal\anaconda3\lib\site-packages\sktime\performance_metrics\forecasting\_functions.py:1545: FutureWarning: In the percentage error metric functions the default argument symmetric=True is changing to symmetric=False in v0.12.0.
+  warn(
+
+2022-10-07 10:45:06,913:WARNING:C:\Users\Kunal\anaconda3\lib\site-packages\sktime\performance_metrics\forecasting\_functions.py:1545: FutureWarning: In the percentage error metric functions the default argument symmetric=True is changing to symmetric=False in v0.12.0.
+  warn(
+
+2022-10-07 10:45:06,922:WARNING:C:\Users\Kunal\anaconda3\lib\site-packages\sktime\performance_metrics\forecasting\_functions.py:1545: FutureWarning: In the percentage error metric functions the default argument symmetric=True is changing to symmetric=False in v0.12.0.
+  warn(
+
+2022-10-07 10:45:06,922:WARNING:C:\Users\Kunal\anaconda3\lib\site-packages\sktime\performance_metrics\forecasting\_functions.py:1545: FutureWarning: In the percentage error metric functions the default argument symmetric=True is changing to symmetric=False in v0.12.0.
+  warn(
+
+2022-10-07 10:45:06,924:INFO:Calculating mean and std
+2022-10-07 10:45:06,924:INFO:Creating metrics dataframe
+2022-10-07 10:45:06,929:INFO:Uploading results into container
+2022-10-07 10:45:06,929:INFO:Uploading model into container now
+2022-10-07 10:45:06,930:INFO:master_model_container: 27
+2022-10-07 10:45:06,931:INFO:display_container: 2
+2022-10-07 10:45:06,932:INFO:BaseCdsDtForecaster(regressor=AdaBoostRegressor(random_state=2673), sp=7,
+                    window_length=7)
+2022-10-07 10:45:06,933:INFO:create_model() successfully completed......................................
+2022-10-07 10:45:07,032:INFO:SubProcess create_model() end ==================================
+2022-10-07 10:45:07,032:INFO:Creating metrics dataframe
+2022-10-07 10:45:07,040:INFO:Initializing Extreme Gradient Boosting w/ Cond. Deseasonalize & Detrending
+2022-10-07 10:45:07,042:INFO:Total runtime is 0.4516671657562257 minutes
+2022-10-07 10:45:07,042:INFO:SubProcess create_model() called ==================================
+2022-10-07 10:45:07,043:INFO:Initializing create_model()
+2022-10-07 10:45:07,044:INFO:create_model(self=<pycaret.time_series.forecasting.oop.TSForecastingExperiment object at 0x00000183D7A92760>, estimator=xgboost_cds_dt, fold=None, round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x00000183E1F1F0D0>, model_only=True, return_train_score=False, kwargs={})
+2022-10-07 10:45:07,045:INFO:Checking exceptions
+2022-10-07 10:45:07,047:INFO:Importing libraries
+2022-10-07 10:45:07,047:INFO:Copying training dataset
+2022-10-07 10:45:07,050:INFO:Defining folds
+2022-10-07 10:45:07,051:INFO:Declaring metric variables
+2022-10-07 10:45:07,051:INFO:Importing untrained model
+2022-10-07 10:45:07,054:INFO:Extreme Gradient Boosting w/ Cond. Deseasonalize & Detrending Imported successfully
+2022-10-07 10:45:07,054:INFO:Starting cross validation
+2022-10-07 10:45:07,055:INFO:Cross validating with ExpandingWindowSplitter(fh=ForecastingHorizon([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18], dtype='int64', is_relative=True),
+            initial_window=None, step_length=18), n_jobs=-1
+2022-10-07 10:45:07,131:WARNING:C:\Users\Kunal\anaconda3\lib\site-packages\sktime\utils\seasonality.py:44: UserWarning: Did not perform seasonality test, as `y`` is too short for the given `sp`, returned: False
+  warn(
+
+2022-10-07 10:45:07,302:WARNING:C:\Users\Kunal\anaconda3\lib\site-packages\sktime\performance_metrics\forecasting\_functions.py:1545: FutureWarning: In the percentage error metric functions the default argument symmetric=True is changing to symmetric=False in v0.12.0.
+  warn(
+
+2022-10-07 10:45:07,303:WARNING:C:\Users\Kunal\anaconda3\lib\site-packages\sktime\performance_metrics\forecasting\_functions.py:1545: FutureWarning: In the percentage error metric functions the default argument symmetric=True is changing to symmetric=False in v0.12.0.
+  warn(
+
+2022-10-07 10:45:07,304:WARNING:C:\Users\Kunal\anaconda3\lib\site-packages\sktime\performance_metrics\forecasting\_functions.py:1545: FutureWarning: In the percentage error metric functions the default argument symmetric=True is changing to symmetric=False in v0.12.0.
+  warn(
+
+2022-10-07 10:45:07,304:WARNING:C:\Users\Kunal\anaconda3\lib\site-packages\sktime\performance_metrics\forecasting\_functions.py:1545: FutureWarning: In the percentage error metric functions the default argument symmetric=True is changing to symmetric=False in v0.12.0.
+  warn(
+
+2022-10-07 10:45:07,307:WARNING:C:\Users\Kunal\anaconda3\lib\site-packages\sktime\performance_metrics\forecasting\_functions.py:1545: FutureWarning: In the percentage error metric functions the default argument symmetric=True is changing to symmetric=False in v0.12.0.
+  warn(
+
+2022-10-07 10:45:07,307:WARNING:C:\Users\Kunal\anaconda3\lib\site-packages\sktime\performance_metrics\forecasting\_functions.py:1545: FutureWarning: In the percentage error metric functions the default argument symmetric=True is changing to symmetric=False in v0.12.0.
+  warn(
+
+2022-10-07 10:45:07,309:INFO:Calculating mean and std
+2022-10-07 10:45:07,310:INFO:Creating metrics dataframe
+2022-10-07 10:45:07,314:INFO:Uploading results into container
+2022-10-07 10:45:07,314:INFO:Uploading model into container now
+2022-10-07 10:45:07,314:INFO:master_model_container: 28
+2022-10-07 10:45:07,315:INFO:display_container: 2
+2022-10-07 10:45:07,317:INFO:BaseCdsDtForecaster(regressor=XGBRegressor(base_score=None, booster='gbtree',
+                                           callbacks=None,
+                                           colsample_bylevel=None,
+                                           colsample_bynode=None,
+                                           colsample_bytree=None,
+                                           early_stopping_rounds=None,
+                                           enable_categorical=False,
+                                           eval_metric=None, gamma=None,
+                                           gpu_id=None, grow_policy=None,
+                                           importance_type=None,
+                                           interaction_constraints=None,
+                                           learning_rate=None, max_bin=None,
+                                           max_cat_to_onehot=None,
+                                           max_delta_step=None, max_depth=None,
+                                           max_leaves=None,
+                                           min_child_weight=None, missing=nan,
+                                           monotone_constraints=None,
+                                           n_estimators=100, n_jobs=-1,
+                                           num_parallel_tree=None,
+                                           predictor=None, random_state=2673,
+                                           reg_alpha=None, reg_lambda=None, ...),
+                    sp=7, window_length=7)
+2022-10-07 10:45:07,318:INFO:create_model() successfully completed......................................
+2022-10-07 10:45:07,418:INFO:SubProcess create_model() end ==================================
+2022-10-07 10:45:07,419:INFO:Creating metrics dataframe
+2022-10-07 10:45:07,426:INFO:Initializing Light Gradient Boosting w/ Cond. Deseasonalize & Detrending
+2022-10-07 10:45:07,426:INFO:Total runtime is 0.4580663879712424 minutes
+2022-10-07 10:45:07,427:INFO:SubProcess create_model() called ==================================
+2022-10-07 10:45:07,428:INFO:Initializing create_model()
+2022-10-07 10:45:07,428:INFO:create_model(self=<pycaret.time_series.forecasting.oop.TSForecastingExperiment object at 0x00000183D7A92760>, estimator=lightgbm_cds_dt, fold=None, round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x00000183E1F1F0D0>, model_only=True, return_train_score=False, kwargs={})
+2022-10-07 10:45:07,429:INFO:Checking exceptions
+2022-10-07 10:45:07,431:INFO:Importing libraries
+2022-10-07 10:45:07,431:INFO:Copying training dataset
+2022-10-07 10:45:07,434:INFO:Defining folds
+2022-10-07 10:45:07,435:INFO:Declaring metric variables
+2022-10-07 10:45:07,435:INFO:Importing untrained model
+2022-10-07 10:45:07,437:INFO:Light Gradient Boosting w/ Cond. Deseasonalize & Detrending Imported successfully
+2022-10-07 10:45:07,439:INFO:Starting cross validation
+2022-10-07 10:45:07,440:INFO:Cross validating with ExpandingWindowSplitter(fh=ForecastingHorizon([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18], dtype='int64', is_relative=True),
+            initial_window=None, step_length=18), n_jobs=-1
+2022-10-07 10:45:08,570:WARNING:C:\Users\Kunal\anaconda3\lib\site-packages\sktime\utils\seasonality.py:44: UserWarning: Did not perform seasonality test, as `y`` is too short for the given `sp`, returned: False
+  warn(
+
+2022-10-07 10:45:08,624:WARNING:C:\Users\Kunal\anaconda3\lib\site-packages\sktime\performance_metrics\forecasting\_functions.py:1545: FutureWarning: In the percentage error metric functions the default argument symmetric=True is changing to symmetric=False in v0.12.0.
+  warn(
+
+2022-10-07 10:45:08,625:WARNING:C:\Users\Kunal\anaconda3\lib\site-packages\sktime\performance_metrics\forecasting\_functions.py:1545: FutureWarning: In the percentage error metric functions the default argument symmetric=True is changing to symmetric=False in v0.12.0.
+  warn(
+
+2022-10-07 10:45:08,641:WARNING:C:\Users\Kunal\anaconda3\lib\site-packages\sktime\performance_metrics\forecasting\_functions.py:1545: FutureWarning: In the percentage error metric functions the default argument symmetric=True is changing to symmetric=False in v0.12.0.
+  warn(
+
+2022-10-07 10:45:08,641:WARNING:C:\Users\Kunal\anaconda3\lib\site-packages\sktime\performance_metrics\forecasting\_functions.py:1545: FutureWarning: In the percentage error metric functions the default argument symmetric=True is changing to symmetric=False in v0.12.0.
+  warn(
+
+2022-10-07 10:45:08,667:WARNING:C:\Users\Kunal\anaconda3\lib\site-packages\sktime\performance_metrics\forecasting\_functions.py:1545: FutureWarning: In the percentage error metric functions the default argument symmetric=True is changing to symmetric=False in v0.12.0.
+  warn(
+
+2022-10-07 10:45:08,668:WARNING:C:\Users\Kunal\anaconda3\lib\site-packages\sktime\performance_metrics\forecasting\_functions.py:1545: FutureWarning: In the percentage error metric functions the default argument symmetric=True is changing to symmetric=False in v0.12.0.
+  warn(
+
+2022-10-07 10:45:08,670:INFO:Calculating mean and std
+2022-10-07 10:45:08,670:INFO:Creating metrics dataframe
+2022-10-07 10:45:08,675:INFO:Uploading results into container
+2022-10-07 10:45:08,675:INFO:Uploading model into container now
+2022-10-07 10:45:08,679:INFO:master_model_container: 29
+2022-10-07 10:45:08,680:INFO:display_container: 2
+2022-10-07 10:45:08,683:INFO:BaseCdsDtForecaster(regressor=LGBMRegressor(random_state=2673), sp=7,
+                    window_length=7)
+2022-10-07 10:45:08,684:INFO:create_model() successfully completed......................................
+2022-10-07 10:45:08,832:INFO:SubProcess create_model() end ==================================
+2022-10-07 10:45:08,832:INFO:Creating metrics dataframe
+2022-10-07 10:45:08,842:INFO:Initializing create_model()
+2022-10-07 10:45:08,842:INFO:create_model(self=<pycaret.time_series.forecasting.oop.TSForecastingExperiment object at 0x00000183D7A92760>, estimator=ARIMA(seasonal_order=(0, 1, 0, 7)), fold=None, round=4, cross_validation=False, predict=False, fit_kwargs={}, groups=None, refit=True, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=None, model_only=True, return_train_score=False, kwargs={})
+2022-10-07 10:45:08,842:INFO:Checking exceptions
+2022-10-07 10:45:08,847:INFO:Importing libraries
+2022-10-07 10:45:08,847:INFO:Copying training dataset
+2022-10-07 10:45:08,851:INFO:Defining folds
+2022-10-07 10:45:08,851:INFO:Declaring metric variables
+2022-10-07 10:45:08,851:INFO:Importing untrained model
+2022-10-07 10:45:08,853:INFO:Declaring custom model
+2022-10-07 10:45:08,853:INFO:ARIMA Imported successfully
+2022-10-07 10:45:08,854:INFO:Cross validation set to False
+2022-10-07 10:45:08,854:INFO:Fitting Model
+2022-10-07 10:45:08,912:INFO:ARIMA(seasonal_order=(0, 1, 0, 7))
+2022-10-07 10:45:08,912:INFO:create_model() successfully completed......................................
+2022-10-07 10:45:09,051:INFO:master_model_container: 29
+2022-10-07 10:45:09,051:INFO:display_container: 2
+2022-10-07 10:45:09,054:INFO:ARIMA(seasonal_order=(0, 1, 0, 7))
+2022-10-07 10:45:09,054:INFO:compare_models() successfully completed......................................
+2022-10-07 10:45:09,055:INFO:Initializing finalize_model()
+2022-10-07 10:45:09,055:INFO:finalize_model(self=<pycaret.time_series.forecasting.oop.TSForecastingExperiment object at 0x00000183D7A92760>, estimator=ARIMA(seasonal_order=(0, 1, 0, 7)), fit_kwargs=None, groups=None, model_only=False, experiment_custom_tags=None)
+2022-10-07 10:45:09,057:INFO:Finalizing ARIMA(seasonal_order=(0, 1, 0, 7))
+2022-10-07 10:45:09,060:INFO:Initializing create_model()
+2022-10-07 10:45:09,060:INFO:create_model(self=<pycaret.time_series.forecasting.oop.TSForecastingExperiment object at 0x00000183D7A92760>, estimator=ARIMA(seasonal_order=(0, 1, 0, 7)), fold=None, round=4, cross_validation=False, predict=False, fit_kwargs={}, groups=None, refit=True, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=False, metrics=None, display=None, model_only=False, return_train_score=False, kwargs={})
+2022-10-07 10:45:09,061:INFO:Checking exceptions
+2022-10-07 10:45:09,064:INFO:Importing libraries
+2022-10-07 10:45:09,064:INFO:Copying training dataset
+2022-10-07 10:45:09,067:INFO:Defining folds
+2022-10-07 10:45:09,067:INFO:Declaring metric variables
+2022-10-07 10:45:09,068:INFO:Importing untrained model
+2022-10-07 10:45:09,069:INFO:Declaring custom model
+2022-10-07 10:45:09,070:INFO:ARIMA Imported successfully
+2022-10-07 10:45:09,071:INFO:Cross validation set to False
+2022-10-07 10:45:09,071:INFO:Fitting Model
+2022-10-07 10:45:09,119:INFO:ForecastingPipeline(steps=[('forecaster',
+                            TransformedTargetForecaster(steps=[('model',
+                                                                ARIMA(seasonal_order=(0,
+                                                                                      1,
+                                                                                      0,
+                                                                                      7)))]))])
+2022-10-07 10:45:09,119:INFO:create_model() successfully completed......................................
+2022-10-07 10:45:09,278:WARNING:predict_model >> Prediction Indices do not match test indices. Metrics will not be displayed.
+2022-10-07 10:45:09,382:INFO:display_container: 3
+2022-10-07 10:45:09,383:INFO:master_model_container: 29
+2022-10-07 10:45:09,384:INFO:display_container: 3
+2022-10-07 10:45:09,389:INFO:ForecastingPipeline(steps=[('forecaster',
+                            TransformedTargetForecaster(steps=[('model',
+                                                                ARIMA(seasonal_order=(0,
+                                                                                      1,
+                                                                                      0,
+                                                                                      7)))]))])
+2022-10-07 10:45:09,390:INFO:finalize_model() successfully completed......................................
+2022-10-07 10:45:09,545:WARNING:predict_model >> Prediction Indices do not match test indices. Metrics will not be displayed.
+2022-10-07 10:45:09,699:WARNING:predict_model >> Prediction Indices do not match test indices. Metrics will not be displayed.
+2022-10-07 10:45:12,718:INFO:Visual Rendered Successfully
